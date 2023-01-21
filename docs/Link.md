@@ -1,0 +1,258 @@
+# Link
+ : [Object](Object.md) : [LockableObject](LockableObject.md)
+___
+### Properties  
+> [!NOTE|labelVisibility:hidden|iconVisibility:hidden]
+> [ID](#ID)
+>
+> [Name](#Name)
+>
+### Discovered Properties  
+Discovered properties might be available in many contexts, but most typically in Fuse scripts  
+> [!NOTE|labelVisibility:hidden|iconVisibility:hidden]
+> [Owner](#Owner)
+>
+### Methods  
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> [GetData](#GetData)()
+>
+> [GetTool](#GetTool)()
+>
+> [SetData](#SetData)()
+>
+### Tag Map
+> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+> [LINK_Main](#LINK_Main)
+>
+> [LINKID_AddBeforeID](#LINKID_AddBeforeID)
+>
+> [LINK_Version](#LINK_Version)
+>
+> [LINK_ForceSave](#LINK_ForceSave)
+>
+> [LINKID_LegacyID](#LINKID_LegacyID)
+>
+> [LINKID_AddAfterID](#LINKID_AddAfterID)
+>
+> [LINK_DoNotSave](#LINK_DoNotSave)
+>
+> [LINKS_Name](#LINKS_Name)
+>
+> [LINKID_AllowedDataType](#LINKID_AllowedDataType)
+>
+> [LINKID_ID](#LINKID_ID)
+>
+> [LINK_Visible](#LINK_Visible)
+>
+> [LINKP_OwnerOp](#LINKP_OwnerOp)
+>
+### Registry Attributes
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> [REGI_ClassType](#REGI_ClassType)
+>
+> [REGB_ControlView](#REGB_ControlView)
+>
+> [REGB_Hide](#REGB_Hide)
+>
+> [REGS_ID](#REGS_ID)
+>
+> [REGS_Name](#REGS_Name)
+>
+> [REGI_Priority](#REGI_Priority)
+>
+> [REGB_SupportsDoD](#REGB_SupportsDoD)
+>
+> [REGB_Unpredictable](#REGB_Unpredictable)
+>
+> [REGI_Version](#REGI_Version)
+>
+> [REGS_VersionString](#REGS_VersionString)
+>
+___
+
+# Properties: <!-- {docsify-ignore} -->
+
+### ID
+> [!NOTE|labelVisibility:hidden|iconVisibility:hidden]
+> ID of this Link
+>
+> `Type: string`
+>
+> *<span class="read_only">Read Only</span>*
+>
+___
+
+### Name
+> [!NOTE|labelVisibility:hidden|iconVisibility:hidden]
+> Friendly name of this Link
+>
+> `Type: string`
+>
+> *<span class="read_only">Read Only</span>*
+>
+___
+
+
+# Discovered Properties: <!-- {docsify-ignore} -->
+
+### Owner
+> [!NOTE|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: Operator`
+>
+> *<span class="read_only">Read Only</span>*
+>
+___
+
+
+# Methods: <!-- {docsify-ignore} -->
+
+### GetData()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Get custom persistent data
+>
+> ```php
+(number|string|boolean|table) Link:GetData([string name])
+> ```
+>
+> *Se also: [SetData()](#SetData)*
+___
+
+### GetTool()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Returns the Tool object that owns this Link
+>
+> ```php
+Tool Link:GetTool()
+> ```
+>
+___
+
+### SetData()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Set custom persistent data
+>
+> ```php
+ Link:SetData(string name, (number|string|boolean|table) value)
+> ```
+>
+> *Se also: [GetData()](#GetData)*
+___
+
+
+# Tag Map: <!-- {docsify-ignore} -->
+
+### LINK_Main
+> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+### LINKID_AddBeforeID
+> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+### LINK_Version
+> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+### LINK_ForceSave
+> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: boolean`
+>
+### LINKID_LegacyID
+> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+### LINKID_AddAfterID
+> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+### LINK_DoNotSave
+> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: boolean`
+>
+### LINKS_Name
+> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+### LINKID_AllowedDataType
+> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+### LINKID_ID
+> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+### LINK_Visible
+> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: boolean`
+>
+### LINKP_OwnerOp
+> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+___
+
+
+# Registry Attributes: <!-- {docsify-ignore} -->
+
+### REGI_ClassType
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0 = CT_Any
+>
+___
+
+### REGB_ControlView
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: boolean`
+>
+> false
+>
+___
+
+### REGB_Hide
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: boolean`
+>
+> false
+>
+___
+
+### REGS_ID
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> Link
+>
+___
+
+### REGS_Name
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> Link
+>
+___
+
+### REGI_Priority
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0
+>
+___
+
+### REGB_SupportsDoD
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: boolean`
+>
+> false
+>
+___
+
+### REGB_Unpredictable
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: boolean`
+>
+> false
+>
+___
+
+### REGI_Version
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0
+>
+___
+
+### REGS_VersionString
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> Built: Dec  7 2022
+>
+___
+
