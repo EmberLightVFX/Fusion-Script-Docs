@@ -3,6 +3,8 @@ ___
 ### Discovered Methods  
 Discovered methods might be available in many contexts, but most typically in Fuse scripts  
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> [TagList](#TagList)()
+>
 > [_Get_ID](#_Get_ID)()
 >
 > [_Get_Object](#_Get_Object)()
@@ -37,11 +39,19 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [_Set_uint32](#_Set_uint32)()
 >
-> [TagList](#TagList)()
->
 ___
 
 # Discovered Methods: <!-- {docsify-ignore} -->
+
+### TagList()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> TagList constructor
+>
+> ```php
+TagList TagList()
+> ```
+>
+___
 
 ### _Get_ID()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
@@ -175,16 +185,6 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
  TagList:_Set_uint32(Tag tag, uint32 val, boolean addnew)
-> ```
->
-___
-
-### TagList()
-> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> TagList constructor
->
-> ```php
-TagList TagList()
 > ```
 >
 ___

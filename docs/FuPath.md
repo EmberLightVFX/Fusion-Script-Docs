@@ -7,6 +7,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [Exists](#Exists)()
 >
+> [FuPath](#FuPath)()
+>
 > [GetAllSegments](#GetAllSegments)()
 >
 > [GetClosestMatch](#GetClosestMatch)()
@@ -25,8 +27,6 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [SetSegment](#SetSegment)()
 >
-> [FuPath](#FuPath)()
->
 ___
 
 # Discovered Methods: <!-- {docsify-ignore} -->
@@ -43,6 +43,16 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
 boolean FuPath:Exists(string str)
+> ```
+>
+___
+
+### FuPath()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> FuPath constructor
+>
+> ```php
+FuPath FuPath(string str)
 > ```
 >
 ___
@@ -115,16 +125,6 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
 boolean FuPath:SetSegment(int32 seg, string str)
-> ```
->
-___
-
-### FuPath()
-> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> FuPath constructor
->
-> ```php
-FuPath FuPath(string str)
 > ```
 >
 ___

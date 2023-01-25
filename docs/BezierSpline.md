@@ -12,18 +12,11 @@ ___
 > [SetKeyFrames](#SetKeyFrames)()
 >
 ### Registry Attributes
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> [REGI_ClassType](#REGI_ClassType)
->
 > [REGB_ControlView](#REGB_ControlView)
 >
 > [REGB_ForceCommonCtrls](#REGB_ForceCommonCtrls)
 >
 > [REGB_Hide](#REGB_Hide)
->
-> [REGS_ID](#REGS_ID)
->
-> [REGS_Name](#REGS_Name)
 >
 > [REGB_NoAutoProxy](#REGB_NoAutoProxy)
 >
@@ -33,17 +26,13 @@ ___
 >
 > [REGB_NoObjMatCtrls](#REGB_NoObjMatCtrls)
 >
-> [REGI_OpIcon](#REGI_OpIcon)
->
 > [REGB_OpNoMask](#REGB_OpNoMask)
 >
 > [REGB_OperatorControl](#REGB_OperatorControl)
 >
-> [REGI_Priority](#REGI_Priority)
+> [REGB_Source_AspectCtrls](#REGB_Source_AspectCtrls)
 >
 > [REGB_Source_GlobalCtrls](#REGB_Source_GlobalCtrls)
->
-> [REGB_Source_AspectCtrls](#REGB_Source_AspectCtrls)
 >
 > [REGB_Source_SizeCtrls](#REGB_Source_SizeCtrls)
 >
@@ -51,7 +40,17 @@ ___
 >
 > [REGB_Unpredictable](#REGB_Unpredictable)
 >
+> [REGI_ClassType](#REGI_ClassType)
+>
+> [REGI_OpIcon](#REGI_OpIcon)
+>
+> [REGI_Priority](#REGI_Priority)
+>
 > [REGI_Version](#REGI_Version)
+>
+> [REGS_ID](#REGS_ID)
+>
+> [REGS_Name](#REGS_Name)
 >
 > [REGS_VersionString](#REGS_VersionString)
 >
@@ -109,14 +108,6 @@ ___
 
 # Registry Attributes: <!-- {docsify-ignore} -->
 
-### REGI_ClassType
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 69 = CT_Spline
->
-___
-
 ### REGB_ControlView
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: boolean`
@@ -138,22 +129,6 @@ ___
 > `Type: boolean`
 >
 > false
->
-___
-
-### REGS_ID
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> BezierSpline
->
-___
-
-### REGS_Name
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> BezierSpline
 >
 ___
 
@@ -189,14 +164,6 @@ ___
 >
 ___
 
-### REGI_OpIcon
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 0
->
-___
-
 ### REGB_OpNoMask
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: boolean`
@@ -213,15 +180,7 @@ ___
 >
 ___
 
-### REGI_Priority
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 0
->
-___
-
-### REGB_Source_GlobalCtrls
+### REGB_Source_AspectCtrls
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: boolean`
 >
@@ -229,7 +188,7 @@ ___
 >
 ___
 
-### REGB_Source_AspectCtrls
+### REGB_Source_GlobalCtrls
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: boolean`
 >
@@ -261,6 +220,30 @@ ___
 >
 ___
 
+### REGI_ClassType
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 69 = CT_Spline
+>
+___
+
+### REGI_OpIcon
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0
+>
+___
+
+### REGI_Priority
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0
+>
+___
+
 ### REGI_Version
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: number (integer)`
@@ -269,11 +252,27 @@ ___
 >
 ___
 
+### REGS_ID
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> BezierSpline
+>
+___
+
+### REGS_Name
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> BezierSpline
+>
+___
+
 ### REGS_VersionString
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Dec  7 2022
+> Built: Jan 25 2023
 >
 ___
 

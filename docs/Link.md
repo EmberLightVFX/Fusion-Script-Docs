@@ -21,50 +21,51 @@ Discovered properties might be available in many contexts, but most typically in
 > [SetData](#SetData)()
 >
 ### Tag Map
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [LINK_Main](#LINK_Main)
+> Create
 >
-> [LINKID_AddBeforeID](#LINKID_AddBeforeID)
->
-> [LINK_Version](#LINK_Version)
->
-> [LINK_ForceSave](#LINK_ForceSave)
->
-> [LINKID_LegacyID](#LINKID_LegacyID)
->
-> [LINKID_AddAfterID](#LINKID_AddAfterID)
->
-> [LINK_DoNotSave](#LINK_DoNotSave)
->
-> [LINKS_Name](#LINKS_Name)
->
-> [LINKID_AllowedDataType](#LINKID_AllowedDataType)
->
-> [LINKID_ID](#LINKID_ID)
->
-> [LINK_Visible](#LINK_Visible)
->
-> [LINKP_OwnerOp](#LINKP_OwnerOp)
->
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [LINKID_AddAfterID](#LINKID_AddAfterID)
+>>
+>> [LINKID_AddBeforeID](#LINKID_AddBeforeID)
+>>
+>> [LINKID_AllowedDataType](#LINKID_AllowedDataType)
+>>
+>> [LINKID_ID](#LINKID_ID)
+>>
+>> [LINKID_LegacyID](#LINKID_LegacyID)
+>>
+>> [LINKP_OwnerOp](#LINKP_OwnerOp)
+>>
+>> [LINKS_Name](#LINKS_Name)
+>>
+>> [LINK_DoNotSave](#LINK_DoNotSave)
+>>
+>> [LINK_ForceSave](#LINK_ForceSave)
+>>
+>> [LINK_Main](#LINK_Main)
+>>
+>> [LINK_Version](#LINK_Version)
+>>
+>> [LINK_Visible](#LINK_Visible)
+>>
 ### Registry Attributes
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> [REGI_ClassType](#REGI_ClassType)
->
 > [REGB_ControlView](#REGB_ControlView)
 >
 > [REGB_Hide](#REGB_Hide)
->
-> [REGS_ID](#REGS_ID)
->
-> [REGS_Name](#REGS_Name)
->
-> [REGI_Priority](#REGI_Priority)
 >
 > [REGB_SupportsDoD](#REGB_SupportsDoD)
 >
 > [REGB_Unpredictable](#REGB_Unpredictable)
 >
+> [REGI_ClassType](#REGI_ClassType)
+>
+> [REGI_Priority](#REGI_Priority)
+>
 > [REGI_Version](#REGI_Version)
+>
+> [REGS_ID](#REGS_ID)
+>
+> [REGS_Name](#REGS_Name)
 >
 > [REGS_VersionString](#REGS_VersionString)
 >
@@ -141,48 +142,41 @@ ___
 
 # Tag Map: <!-- {docsify-ignore} -->
 
-### LINK_Main
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LINKID_AddBeforeID
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LINK_Version
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LINK_ForceSave
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### LINKID_LegacyID
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LINKID_AddAfterID
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LINK_DoNotSave
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### LINKS_Name
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LINKID_AllowedDataType
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LINKID_ID
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LINK_Visible
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### LINKP_OwnerOp
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>## Create 
+>### LINKID_AddAfterID
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LINKID_AddBeforeID
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LINKID_AllowedDataType
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LINKID_ID
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LINKID_LegacyID
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LINKP_OwnerOp
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LINKS_Name
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LINK_DoNotSave
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### LINK_ForceSave
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### LINK_Main
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LINK_Version
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LINK_Visible
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
 ___
 
 
 # Registry Attributes: <!-- {docsify-ignore} -->
-
-### REGI_ClassType
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 0 = CT_Any
->
-___
 
 ### REGB_ControlView
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
@@ -197,30 +191,6 @@ ___
 > `Type: boolean`
 >
 > false
->
-___
-
-### REGS_ID
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> Link
->
-___
-
-### REGS_Name
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> Link
->
-___
-
-### REGI_Priority
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 0
 >
 ___
 
@@ -240,6 +210,22 @@ ___
 >
 ___
 
+### REGI_ClassType
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0 = CT_Any
+>
+___
+
+### REGI_Priority
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0
+>
+___
+
 ### REGI_Version
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: number (integer)`
@@ -248,11 +234,27 @@ ___
 >
 ___
 
+### REGS_ID
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> Link
+>
+___
+
+### REGS_Name
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> Link
+>
+___
+
 ### REGS_VersionString
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Dec  7 2022
+> Built: Jan 25 2023
 >
 ___
 

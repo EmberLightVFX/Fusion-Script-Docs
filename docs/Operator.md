@@ -126,42 +126,43 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [_CloneInput](#_CloneInput)()
 >
 ### Tag Map
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [CTID_DIB_ID](#CTID_DIB_ID)
+> ControlPage
 >
-> [CTID_ID](#CTID_ID)
->
-> [CTS_FullName](#CTS_FullName)
->
-> [CTS_Name](#CTS_Name)
->
-> [CT_NoExtraSpace](#CT_NoExtraSpace)
->
-> [CT_Priority](#CT_Priority)
->
-> [CT_Visible](#CT_Visible)
->
-> [CT_AlwaysFullSaturation](#CT_AlwaysFullSaturation)
->
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [CTID_DIB_ID](#CTID_DIB_ID)
+>>
+>> [CTID_ID](#CTID_ID)
+>>
+>> [CTS_FullName](#CTS_FullName)
+>>
+>> [CTS_Name](#CTS_Name)
+>>
+>> [CT_AlwaysFullSaturation](#CT_AlwaysFullSaturation)
+>>
+>> [CT_NoExtraSpace](#CT_NoExtraSpace)
+>>
+>> [CT_Priority](#CT_Priority)
+>>
+>> [CT_Visible](#CT_Visible)
+>>
 ### Registry Attributes
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> [REGI_ClassType](#REGI_ClassType)
->
 > [REGB_ControlView](#REGB_ControlView)
 >
 > [REGB_Hide](#REGB_Hide)
->
-> [REGS_ID](#REGS_ID)
->
-> [REGS_Name](#REGS_Name)
->
-> [REGI_Priority](#REGI_Priority)
 >
 > [REGB_SupportsDoD](#REGB_SupportsDoD)
 >
 > [REGB_Unpredictable](#REGB_Unpredictable)
 >
+> [REGI_ClassType](#REGI_ClassType)
+>
+> [REGI_Priority](#REGI_Priority)
+>
 > [REGI_Version](#REGI_Version)
+>
+> [REGS_ID](#REGS_ID)
+>
+> [REGS_Name](#REGS_Name)
 >
 > [REGS_VersionString](#REGS_VersionString)
 >
@@ -786,40 +787,33 @@ ___
 
 # Tag Map: <!-- {docsify-ignore} -->
 
-### CTID_DIB_ID
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### CTID_ID
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### CTS_FullName
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### CTS_Name
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### CT_NoExtraSpace
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### CT_Priority
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### CT_Visible
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### CT_AlwaysFullSaturation
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
+>## ControlPage 
+>### CTID_DIB_ID
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CTID_ID
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CTS_FullName
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CTS_Name
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CT_AlwaysFullSaturation
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### CT_NoExtraSpace
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### CT_Priority
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CT_Visible
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
 ___
 
 
 # Registry Attributes: <!-- {docsify-ignore} -->
-
-### REGI_ClassType
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 0 = CT_Any
->
-___
 
 ### REGB_ControlView
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
@@ -834,30 +828,6 @@ ___
 > `Type: boolean`
 >
 > false
->
-___
-
-### REGS_ID
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> Operator
->
-___
-
-### REGS_Name
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> Operator
->
-___
-
-### REGI_Priority
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 0
 >
 ___
 
@@ -877,6 +847,22 @@ ___
 >
 ___
 
+### REGI_ClassType
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0 = CT_Any
+>
+___
+
+### REGI_Priority
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0
+>
+___
+
 ### REGI_Version
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: number (integer)`
@@ -885,11 +871,27 @@ ___
 >
 ___
 
+### REGS_ID
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> Operator
+>
+___
+
+### REGS_Name
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> Operator
+>
+___
+
 ### REGS_VersionString
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Dec  7 2022
+> Built: Jan 25 2023
 >
 ___
 

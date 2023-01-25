@@ -46,9 +46,9 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [GetError](#GetError)()
 >
-> [WordWidth](#WordWidth)()
->
 > [TextStyleFontMetrics](#TextStyleFontMetrics)()
+>
+> [WordWidth](#WordWidth)()
 >
 ___
 
@@ -217,20 +217,20 @@ uint32 TextStyleFontMetrics:GetError()
 >
 ___
 
-### WordWidth()
-> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> ```php
-float64 TextStyleFontMetrics:WordWidth(string str, int direction)
-> ```
->
-___
-
 ### TextStyleFontMetrics()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > TextStyleFontMetrics constructor
 >
 > ```php
 TextStyleFontMetrics TextStyleFontMetrics(TextStyleFont font, int direction)
+> ```
+>
+___
+
+### WordWidth()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+float64 TextStyleFontMetrics:WordWidth(string str, int direction)
 > ```
 >
 ___

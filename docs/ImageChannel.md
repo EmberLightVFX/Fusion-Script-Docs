@@ -12,6 +12,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > [CopyToAlpha](#CopyToAlpha)()
 >
+> [ImageChannel](#ImageChannel)()
+>
 > [PutToImage](#PutToImage)()
 >
 > [SetStyleFill](#SetStyleFill)()
@@ -19,8 +21,6 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [ShapeFill](#ShapeFill)()
 >
 > [SimpleShapeFill](#SimpleShapeFill)()
->
-> [ImageChannel](#ImageChannel)()
 >
 ___
 
@@ -53,6 +53,16 @@ ___
 >
 ___
 
+### ImageChannel()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ImageChannel constructor
+>
+> ```php
+ImageChannel ImageChannel(Image img, int32 super, ImageRegion rgn, boolean map)
+> ```
+>
+___
+
 ### PutToImage()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
@@ -81,16 +91,6 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
  ImageChannel:SimpleShapeFill(Shape shape, boolean invert, string str)
-> ```
->
-___
-
-### ImageChannel()
-> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> ImageChannel constructor
->
-> ```php
-ImageChannel ImageChannel(Image img, int32 super, ImageRegion rgn, boolean map)
 > ```
 >
 ___

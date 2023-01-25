@@ -6,9 +6,6 @@ ___
 > [View](#View)
 >
 ### Registry Attributes
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> [REGI_ClassType](#REGI_ClassType)
->
 > [REGB_ControlView](#REGB_ControlView)
 >
 > [REGB_CreateFramePreview](#REGB_CreateFramePreview)
@@ -17,39 +14,41 @@ ___
 >
 > [REGB_Hide](#REGB_Hide)
 >
-> [REGS_ID](#REGS_ID)
->
-> [REGS_Name](#REGS_Name)
->
-> [REGB_Preview_CanNetRender](#REGB_Preview_CanNetRender)
->
-> [REGB_Preview_CanSaveImage](#REGB_Preview_CanSaveImage)
+> [REGB_Preview_CanCopyAnim](#REGB_Preview_CanCopyAnim)
 >
 > [REGB_Preview_CanCopyImage](#REGB_Preview_CanCopyImage)
 >
-> [REGB_Preview_CanCopyAnim](#REGB_Preview_CanCopyAnim)
+> [REGB_Preview_CanCreateAnim](#REGB_Preview_CanCreateAnim)
 >
 > [REGB_Preview_CanDisplayImage](#REGB_Preview_CanDisplayImage)
 >
-> [REGB_Preview_CanCreateAnim](#REGB_Preview_CanCreateAnim)
->
-> [REGB_Preview_CanSaveAnim](#REGB_Preview_CanSaveAnim)
+> [REGB_Preview_CanNetRender](#REGB_Preview_CanNetRender)
 >
 > [REGB_Preview_CanPlayAnim](#REGB_Preview_CanPlayAnim)
 >
 > [REGB_Preview_CanRecord](#REGB_Preview_CanRecord)
 >
-> [REGB_Preview_UsesFilenames](#REGB_Preview_UsesFilenames)
+> [REGB_Preview_CanSaveAnim](#REGB_Preview_CanSaveAnim)
 >
-> [REGI_Priority](#REGI_Priority)
+> [REGB_Preview_CanSaveImage](#REGB_Preview_CanSaveImage)
+>
+> [REGB_Preview_UsesFilenames](#REGB_Preview_UsesFilenames)
 >
 > [REGB_SupportsDoD](#REGB_SupportsDoD)
 >
-> [REGS_UIName](#REGS_UIName)
->
 > [REGB_Unpredictable](#REGB_Unpredictable)
 >
+> [REGI_ClassType](#REGI_ClassType)
+>
+> [REGI_Priority](#REGI_Priority)
+>
 > [REGI_Version](#REGI_Version)
+>
+> [REGS_ID](#REGS_ID)
+>
+> [REGS_Name](#REGS_Name)
+>
+> [REGS_UIName](#REGS_UIName)
 >
 > [REGS_VersionString](#REGS_VersionString)
 >
@@ -74,14 +73,6 @@ ___
 
 
 # Registry Attributes: <!-- {docsify-ignore} -->
-
-### REGI_ClassType
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 1835008 = CT_Preview
->
-___
 
 ### REGB_ControlView
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
@@ -115,31 +106,7 @@ ___
 >
 ___
 
-### REGS_ID
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> GLPreview
->
-___
-
-### REGS_Name
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> View
->
-___
-
-### REGB_Preview_CanNetRender
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-> true
->
-___
-
-### REGB_Preview_CanSaveImage
+### REGB_Preview_CanCopyAnim
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: boolean`
 >
@@ -155,11 +122,11 @@ ___
 >
 ___
 
-### REGB_Preview_CanCopyAnim
+### REGB_Preview_CanCreateAnim
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: boolean`
 >
-> false
+> true
 >
 ___
 
@@ -171,15 +138,7 @@ ___
 >
 ___
 
-### REGB_Preview_CanCreateAnim
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-> true
->
-___
-
-### REGB_Preview_CanSaveAnim
+### REGB_Preview_CanNetRender
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: boolean`
 >
@@ -203,7 +162,7 @@ ___
 >
 ___
 
-### REGB_Preview_UsesFilenames
+### REGB_Preview_CanSaveAnim
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: boolean`
 >
@@ -211,11 +170,19 @@ ___
 >
 ___
 
-### REGI_Priority
+### REGB_Preview_CanSaveImage
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
+> `Type: boolean`
 >
-> 0
+> false
+>
+___
+
+### REGB_Preview_UsesFilenames
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: boolean`
+>
+> true
 >
 ___
 
@@ -227,19 +194,27 @@ ___
 >
 ___
 
-### REGS_UIName
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> View
->
-___
-
 ### REGB_Unpredictable
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: boolean`
 >
 > false
+>
+___
+
+### REGI_ClassType
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 1835008 = CT_Preview
+>
+___
+
+### REGI_Priority
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0
 >
 ___
 
@@ -251,11 +226,35 @@ ___
 >
 ___
 
+### REGS_ID
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> GLPreview
+>
+___
+
+### REGS_Name
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> View
+>
+___
+
+### REGS_UIName
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> View
+>
+___
+
 ### REGS_VersionString
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Dec  7 2022
+> Built: Jan 25 2023
 >
 ___
 

@@ -3,21 +3,21 @@ ___
 ### Added Methods  
 Manually added methods are known but not documented or discoverable  
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> [GetProjectsInCurrentFolder](#GetProjectsInCurrentFolder)()
->
 > [GetFoldersInCurrentFolder](#GetFoldersInCurrentFolder)()
+>
+> [GetProjectsInCurrentFolder](#GetProjectsInCurrentFolder)()
 >
 ___
 
 # Added Methods: <!-- {docsify-ignore} -->
 
-### GetProjectsInCurrentFolder()
+### GetFoldersInCurrentFolder()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > Deprecated
 >
 ___
 
-### GetFoldersInCurrentFolder()
+### GetProjectsInCurrentFolder()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > Deprecated
 >

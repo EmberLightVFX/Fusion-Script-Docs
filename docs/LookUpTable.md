@@ -25,54 +25,47 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [_newLUT](#_newLUT)()
 >
 ### Tag Map
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [LUT_MaximumValue](#LUT_MaximumValue)
+> Create
 >
-> [LUT_Result](#LUT_Result)
->
-> [LUT_Time](#LUT_Time)
->
-> [LUT_Maximum](#LUT_Maximum)
->
-> [LUT_Value](#LUT_Value)
->
-> [LUT_Minimum](#LUT_Minimum)
->
-> [LUT_Flags](#LUT_Flags)
->
-> [LUT_Entries](#LUT_Entries)
->
-> [LUT_Type](#LUT_Type)
->
-> [LUT_Offset](#LUT_Offset)
->
-> [LUT_StartIn](#LUT_StartIn)
->
-> [LUT_MinimumValue](#LUT_MinimumValue)
->
-> [LUT_StartSlope](#LUT_StartSlope)
->
-> [LUT_EndSlope](#LUT_EndSlope)
->
-> [LUT_OneToOne](#LUT_OneToOne)
->
-> [LUT_EndIn](#LUT_EndIn)
->
-> [LUT_Context](#LUT_Context)
->
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [LUT_Context](#LUT_Context)
+>>
+>> [LUT_EndIn](#LUT_EndIn)
+>>
+>> [LUT_EndSlope](#LUT_EndSlope)
+>>
+>> [LUT_Entries](#LUT_Entries)
+>>
+>> [LUT_Flags](#LUT_Flags)
+>>
+>> [LUT_Maximum](#LUT_Maximum)
+>>
+>> [LUT_MaximumValue](#LUT_MaximumValue)
+>>
+>> [LUT_Minimum](#LUT_Minimum)
+>>
+>> [LUT_MinimumValue](#LUT_MinimumValue)
+>>
+>> [LUT_Offset](#LUT_Offset)
+>>
+>> [LUT_OneToOne](#LUT_OneToOne)
+>>
+>> [LUT_Result](#LUT_Result)
+>>
+>> [LUT_StartIn](#LUT_StartIn)
+>>
+>> [LUT_StartSlope](#LUT_StartSlope)
+>>
+>> [LUT_Time](#LUT_Time)
+>>
+>> [LUT_Type](#LUT_Type)
+>>
+>> [LUT_Value](#LUT_Value)
+>>
 ### Registry Attributes
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> [REGI_ClassType](#REGI_ClassType)
->
 > [REGB_ControlView](#REGB_ControlView)
 >
 > [REGB_Hide](#REGB_Hide)
->
-> [REGS_ID](#REGS_ID)
->
-> [REGS_Name](#REGS_Name)
->
-> [REGI_Priority](#REGI_Priority)
 >
 > [REGB_SupportsDoD](#REGB_SupportsDoD)
 >
@@ -80,7 +73,15 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [REGB_Utility_Toggle](#REGB_Utility_Toggle)
 >
+> [REGI_ClassType](#REGI_ClassType)
+>
+> [REGI_Priority](#REGI_Priority)
+>
 > [REGI_Version](#REGI_Version)
+>
+> [REGS_ID](#REGS_ID)
+>
+> [REGS_Name](#REGS_Name)
 >
 > [REGS_VersionString](#REGS_VersionString)
 >
@@ -166,54 +167,47 @@ ___
 
 # Tag Map: <!-- {docsify-ignore} -->
 
-### LUT_MaximumValue
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LUT_Result
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LUT_Time
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LUT_Maximum
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LUT_Value
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LUT_Minimum
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LUT_Flags
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LUT_Entries
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LUT_Type
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LUT_Offset
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LUT_StartIn
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LUT_MinimumValue
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LUT_StartSlope
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LUT_EndSlope
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LUT_OneToOne
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### LUT_EndIn
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### LUT_Context
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>## Create 
+>### LUT_Context
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LUT_EndIn
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LUT_EndSlope
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LUT_Entries
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LUT_Flags
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LUT_Maximum
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LUT_MaximumValue
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LUT_Minimum
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LUT_MinimumValue
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LUT_Offset
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LUT_OneToOne
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### LUT_Result
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LUT_StartIn
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LUT_StartSlope
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LUT_Time
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LUT_Type
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LUT_Value
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 ___
 
 
 # Registry Attributes: <!-- {docsify-ignore} -->
-
-### REGI_ClassType
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 1507328 = CT_Parameter
->
-___
 
 ### REGB_ControlView
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
@@ -228,30 +222,6 @@ ___
 > `Type: boolean`
 >
 > false
->
-___
-
-### REGS_ID
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> LookUpTable
->
-___
-
-### REGS_Name
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> LookUpTable
->
-___
-
-### REGI_Priority
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 0
 >
 ___
 
@@ -279,6 +249,22 @@ ___
 >
 ___
 
+### REGI_ClassType
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 1507328 = CT_Parameter
+>
+___
+
+### REGI_Priority
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0
+>
+___
+
 ### REGI_Version
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: number (integer)`
@@ -287,11 +273,27 @@ ___
 >
 ___
 
+### REGS_ID
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> LookUpTable
+>
+___
+
+### REGS_Name
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> LookUpTable
+>
+___
+
 ### REGS_VersionString
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Dec  7 2022
+> Built: Jan 25 2023
 >
 ___
 

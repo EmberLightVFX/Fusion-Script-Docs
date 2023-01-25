@@ -10,6 +10,8 @@ Discovered properties might be available in many contexts, but most typically in
 ### Discovered Methods  
 Discovered methods might be available in many contexts, but most typically in Fuse scripts  
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> [ViewShadeNode](#ViewShadeNode)()
+>
 > [_SetParamBool](#_SetParamBool)()
 >
 > [_SetParamImg](#_SetParamImg)()
@@ -25,8 +27,6 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [_SetParamNums4](#_SetParamNums4)()
 >
 > [_SetParamVec3f](#_SetParamVec3f)()
->
-> [ViewShadeNode](#ViewShadeNode)()
 >
 ___
 
@@ -50,6 +50,16 @@ ___
 
 
 # Discovered Methods: <!-- {docsify-ignore} -->
+
+### ViewShadeNode()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ViewShadeNode constructor
+>
+> ```php
+ViewShadeNode ViewShadeNode(ViewShadeNodeGroup group, string name, string params, string code)
+> ```
+>
+___
 
 ### _SetParamBool()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
@@ -111,16 +121,6 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
  ViewShadeNode:_SetParamVec3f(int32 idx, Vector3f vec)
-> ```
->
-___
-
-### ViewShadeNode()
-> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> ViewShadeNode constructor
->
-> ```php
-ViewShadeNode ViewShadeNode(ViewShadeNodeGroup group, string name, string params, string code)
 > ```
 >
 ___

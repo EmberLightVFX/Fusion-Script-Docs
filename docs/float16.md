@@ -10,9 +10,9 @@ Discovered properties might be available in many contexts, but most typically in
 ### Discovered Methods  
 Discovered methods might be available in many contexts, but most typically in Fuse scripts  
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> [float16](#float16)()
->
 > [_tofloat16h](#_tofloat16h)()
+>
+> [float16](#float16)()
 >
 ___
 
@@ -37,20 +37,20 @@ ___
 
 # Discovered Methods: <!-- {docsify-ignore} -->
 
+### _tofloat16h()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+uint16 float16:_tofloat16h(float32 v)
+> ```
+>
+___
+
 ### float16()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > float16 constructor
 >
 > ```php
 float16 float16(float32 f)
-> ```
->
-___
-
-### _tofloat16h()
-> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> ```php
-uint16 float16:_tofloat16h(float32 v)
 > ```
 >
 ___

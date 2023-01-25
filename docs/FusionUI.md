@@ -56,24 +56,23 @@ ___
 > [_Output_Print](#_Output_Print)()
 >
 ### Registry Attributes
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> [REGI_ClassType](#REGI_ClassType)
->
 > [REGB_ControlView](#REGB_ControlView)
 >
 > [REGB_Hide](#REGB_Hide)
->
-> [REGS_ID](#REGS_ID)
->
-> [REGS_Name](#REGS_Name)
->
-> [REGI_Priority](#REGI_Priority)
 >
 > [REGB_SupportsDoD](#REGB_SupportsDoD)
 >
 > [REGB_Unpredictable](#REGB_Unpredictable)
 >
+> [REGI_ClassType](#REGI_ClassType)
+>
+> [REGI_Priority](#REGI_Priority)
+>
 > [REGI_Version](#REGI_Version)
+>
+> [REGS_ID](#REGS_ID)
+>
+> [REGS_Name](#REGS_Name)
 >
 > [REGS_VersionString](#REGS_VersionString)
 >
@@ -220,14 +219,6 @@ ___
 
 # Registry Attributes: <!-- {docsify-ignore} -->
 
-### REGI_ClassType
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 0 = CT_Any
->
-___
-
 ### REGB_ControlView
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: boolean`
@@ -241,30 +232,6 @@ ___
 > `Type: boolean`
 >
 > false
->
-___
-
-### REGS_ID
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> FusionUI
->
-___
-
-### REGS_Name
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> FusionUI
->
-___
-
-### REGI_Priority
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 0
 >
 ___
 
@@ -284,6 +251,22 @@ ___
 >
 ___
 
+### REGI_ClassType
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0 = CT_Any
+>
+___
+
+### REGI_Priority
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0
+>
+___
+
 ### REGI_Version
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: number (integer)`
@@ -292,11 +275,27 @@ ___
 >
 ___
 
+### REGS_ID
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> FusionUI
+>
+___
+
+### REGS_Name
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> FusionUI
+>
+___
+
 ### REGS_VersionString
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Dec  7 2022
+> Built: Jan 25 2023
 >
 ___
 

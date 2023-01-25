@@ -234,300 +234,313 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [_new_TagList](#_new_TagList)()
 >
 ### Tag Map
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [BLUR_YSize](#BLUR_YSize)
->
-> [BLUR_XSize](#BLUR_XSize)
->
-> [BLUR_AlphaScale](#BLUR_AlphaScale)
->
-> [BLUR_BlueScale](#BLUR_BlueScale)
->
-> [BLUR_GreenScale](#BLUR_GreenScale)
->
-> [BLUR_RedScale](#BLUR_RedScale)
->
-> [BLUR_Normalize](#BLUR_Normalize)
->
-> [BLUR_Blend](#BLUR_Blend)
->
-> [BLUR_Red](#BLUR_Red)
->
-> [BLUR_Green](#BLUR_Green)
->
-> [BLUR_Blue](#BLUR_Blue)
->
-> [BLUR_Type](#BLUR_Type)
->
-> [BLUR_ExpandToFit](#BLUR_ExpandToFit)
->
-> [BLUR_Alpha](#BLUR_Alpha)
->
-> [BLUR_ClipSource](#BLUR_ClipSource)
->
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [ErDl_Red](#ErDl_Red)
->
-> [ErDl_AmountX](#ErDl_AmountX)
->
-> [ErDl_AmountY](#ErDl_AmountY)
->
-> [ErDl_Alpha](#ErDl_Alpha)
->
-> [ErDl_Filter](#ErDl_Filter)
->
-> [ErDl_Blue](#ErDl_Blue)
->
-> [ErDl_Green](#ErDl_Green)
->
-> [ErDl_ClipSource](#ErDl_ClipSource)
->
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [IMGPR_ProgressStart](#IMGPR_ProgressStart)
->
-> [IMGPR_SourceReq](#IMGPR_SourceReq)
->
-> [IMGPR_Operator](#IMGPR_Operator)
->
-> [IMGPR_ProgressEnd](#IMGPR_ProgressEnd)
->
-> [IMGPR_NoAbort](#IMGPR_NoAbort)
->
-> [IMGPR_DoProgress](#IMGPR_DoProgress)
->
-> [IMGPR_GPURequested](#IMGPR_GPURequested)
->
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [ErDl_Red](#ErDl_Red)
->
-> [ErDl_AmountX](#ErDl_AmountX)
->
-> [ErDl_AmountY](#ErDl_AmountY)
->
-> [ErDl_Alpha](#ErDl_Alpha)
->
-> [ErDl_Filter](#ErDl_Filter)
->
-> [ErDl_Blue](#ErDl_Blue)
->
-> [ErDl_Green](#ErDl_Green)
->
-> [ErDl_ClipSource](#ErDl_ClipSource)
->
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [ACM_PostGamma](#ACM_PostGamma)
->
-> [ACM_ClipWhite](#ACM_ClipWhite)
->
-> [ACM_PreGamma](#ACM_PreGamma)
->
-> [ACM_ClipBlack](#ACM_ClipBlack)
->
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [MO_FgZOffset](#MO_FgZOffset)
->
-> [MO_FgBlueGain](#MO_FgBlueGain)
->
-> [MO_FgGreenGain](#MO_FgGreenGain)
->
-> [MO_FgRedGain](#MO_FgRedGain)
->
-> [MO_BurnIn](#MO_BurnIn)
->
-> [MO_BgAddSub](#MO_BgAddSub)
->
-> [MO_BgAlphaGain](#MO_BgAlphaGain)
->
-> [MO_BgZOffset](#MO_BgZOffset)
->
-> [MO_FgAddSub](#MO_FgAddSub)
->
-> [MO_FgAlphaGain](#MO_FgAlphaGain)
->
-> [MO_MustDoCopy](#MO_MustDoCopy)
->
-> [MO_ApplyOperator](#MO_ApplyOperator)
->
-> [MO_BBoxOnly](#MO_BBoxOnly)
->
-> [MO_EdgeMode](#MO_EdgeMode)
->
-> [MO_ApplyMode](#MO_ApplyMode)
->
-> [MO_UseOpenCL](#MO_UseOpenCL)
->
-> [MO_YSize](#MO_YSize)
->
-> [MO_YOffset](#MO_YOffset)
->
-> [MO_XAxis](#MO_XAxis)
->
-> [MO_YAxis](#MO_YAxis)
->
-> [MO_XSize](#MO_XSize)
->
-> [MO_DoZ](#MO_DoZ)
->
-> [MO_Angle](#MO_Angle)
->
-> [MO_XOffset](#MO_XOffset)
->
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [MO_FgZOffset](#MO_FgZOffset)
->
-> [MO_FgBlueGain](#MO_FgBlueGain)
->
-> [MO_FgGreenGain](#MO_FgGreenGain)
->
-> [MO_FgRedGain](#MO_FgRedGain)
->
-> [MO_BurnIn](#MO_BurnIn)
->
-> [MO_BgAddSub](#MO_BgAddSub)
->
-> [MO_BgAlphaGain](#MO_BgAlphaGain)
->
-> [MO_BgZOffset](#MO_BgZOffset)
->
-> [MO_FgAddSub](#MO_FgAddSub)
->
-> [MO_FgAlphaGain](#MO_FgAlphaGain)
->
-> [MO_MustDoCopy](#MO_MustDoCopy)
->
-> [MO_ApplyOperator](#MO_ApplyOperator)
->
-> [MO_BBoxOnly](#MO_BBoxOnly)
->
-> [MO_EdgeMode](#MO_EdgeMode)
->
-> [MO_ApplyMode](#MO_ApplyMode)
->
-> [MO_UseOpenCL](#MO_UseOpenCL)
->
-> [MO_YSize](#MO_YSize)
->
-> [MO_YOffset](#MO_YOffset)
->
-> [MO_XAxis](#MO_XAxis)
->
-> [MO_YAxis](#MO_YAxis)
->
-> [MO_XSize](#MO_XSize)
->
-> [MO_DoZ](#MO_DoZ)
->
-> [MO_Angle](#MO_Angle)
->
-> [MO_XOffset](#MO_XOffset)
->
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [IMAT_OriginalXScale](#IMAT_OriginalXScale)
->
-> [IMG_Like](#IMG_Like)
->
-> [IMG_YScale](#IMG_YScale)
->
-> [IMG_DataWindow](#IMG_DataWindow)
->
-> [IMG_ValidWindow](#IMG_ValidWindow)
->
-> [IMAT_OriginalYScale](#IMAT_OriginalYScale)
->
-> [IMG_XScale](#IMG_XScale)
->
-> [IMG_PassThroughAux](#IMG_PassThroughAux)
->
-> [IMG_PassThrough](#IMG_PassThrough)
->
-> [IMG_Quality](#IMG_Quality)
->
-> [IMG_CopyChannels](#IMG_CopyChannels)
->
-> [IMG_Width](#IMG_Width)
->
-> [IMG_Channel](#IMG_Channel)
->
-> [IMG_ProxyScale](#IMG_ProxyScale)
->
-> [IMG_Depth](#IMG_Depth)
->
-> [IMG_Height](#IMG_Height)
->
-> [IMAT_OriginalWidth](#IMAT_OriginalWidth)
->
-> [IMAT_OriginalHeight](#IMAT_OriginalHeight)
->
-> [IMG_MotionBlurQuality](#IMG_MotionBlurQuality)
->
-> [IMG_DeferAlloc](#IMG_DeferAlloc)
->
-> [IMG_Document](#IMG_Document)
->
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [CROP_Height](#CROP_Height)
->
-> [CROP_YOffset](#CROP_YOffset)
->
-> [CROP_Width](#CROP_Width)
->
-> [CROP_XOffset](#CROP_XOffset)
->
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [RSZ_XSize](#RSZ_XSize)
->
-> [RSZ_YOffset](#RSZ_YOffset)
->
-> [RSZ_XOffset](#RSZ_XOffset)
->
-> [RSZ_YSize](#RSZ_YSize)
->
-> [RSZ_Height](#RSZ_Height)
->
-> [RSZ_Depth](#RSZ_Depth)
->
-> [RSZ_Filter](#RSZ_Filter)
->
-> [RSZ_Width](#RSZ_Width)
->
-> [RSZ_YEdgeMode](#RSZ_YEdgeMode)
->
-> [RSZ_Window](#RSZ_Window)
->
-> [RSZ_XEdgeMode](#RSZ_XEdgeMode)
->
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [XF_YSize](#XF_YSize)
->
-> [XF_Angle](#XF_Angle)
->
-> [XF_XOffset](#XF_XOffset)
->
-> [XF_EdgeMode](#XF_EdgeMode)
->
-> [XF_YAxis](#XF_YAxis)
->
-> [XF_XAxis](#XF_XAxis)
->
-> [XF_Filter](#XF_Filter)
->
-> [XF_XSize](#XF_XSize)
->
-> [XF_YOffset](#XF_YOffset)
->
+> ApplyMatrix
+>
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [ACM_ClipBlack](#ACM_ClipBlack)
+>>
+>> [ACM_ClipWhite](#ACM_ClipWhite)
+>>
+>> [ACM_PostGamma](#ACM_PostGamma)
+>>
+>> [ACM_PreGamma](#ACM_PreGamma)
+>>
+> Blur
+>
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [BLUR_Alpha](#BLUR_Alpha)
+>>
+>> [BLUR_AlphaScale](#BLUR_AlphaScale)
+>>
+>> [BLUR_Blend](#BLUR_Blend)
+>>
+>> [BLUR_Blue](#BLUR_Blue)
+>>
+>> [BLUR_BlueScale](#BLUR_BlueScale)
+>>
+>> [BLUR_ClipSource](#BLUR_ClipSource)
+>>
+>> [BLUR_ExpandToFit](#BLUR_ExpandToFit)
+>>
+>> [BLUR_Green](#BLUR_Green)
+>>
+>> [BLUR_GreenScale](#BLUR_GreenScale)
+>>
+>> [BLUR_Normalize](#BLUR_Normalize)
+>>
+>> [BLUR_Red](#BLUR_Red)
+>>
+>> [BLUR_RedScale](#BLUR_RedScale)
+>>
+>> [BLUR_Type](#BLUR_Type)
+>>
+>> [BLUR_XSize](#BLUR_XSize)
+>>
+>> [BLUR_YSize](#BLUR_YSize)
+>>
+> Create
+>
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [IMAT_OriginalHeight](#IMAT_OriginalHeight)
+>>
+>> [IMAT_OriginalWidth](#IMAT_OriginalWidth)
+>>
+>> [IMAT_OriginalXScale](#IMAT_OriginalXScale)
+>>
+>> [IMAT_OriginalYScale](#IMAT_OriginalYScale)
+>>
+>> [IMG_Channel](#IMG_Channel)
+>>
+>> [IMG_CopyChannels](#IMG_CopyChannels)
+>>
+>> [IMG_DataWindow](#IMG_DataWindow)
+>>
+>> [IMG_DeferAlloc](#IMG_DeferAlloc)
+>>
+>> [IMG_Depth](#IMG_Depth)
+>>
+>> [IMG_Document](#IMG_Document)
+>>
+>> [IMG_Height](#IMG_Height)
+>>
+>> [IMG_Like](#IMG_Like)
+>>
+>> [IMG_MotionBlurQuality](#IMG_MotionBlurQuality)
+>>
+>> [IMG_PassThrough](#IMG_PassThrough)
+>>
+>> [IMG_PassThroughAux](#IMG_PassThroughAux)
+>>
+>> [IMG_ProxyScale](#IMG_ProxyScale)
+>>
+>> [IMG_Quality](#IMG_Quality)
+>>
+>> [IMG_ValidWindow](#IMG_ValidWindow)
+>>
+>> [IMG_Width](#IMG_Width)
+>>
+>> [IMG_XScale](#IMG_XScale)
+>>
+>> [IMG_YScale](#IMG_YScale)
+>>
+> Crop
+>
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [CROP_Height](#CROP_Height)
+>>
+>> [CROP_Width](#CROP_Width)
+>>
+>> [CROP_XOffset](#CROP_XOffset)
+>>
+>> [CROP_YOffset](#CROP_YOffset)
+>>
+> ErodeDilate
+>
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [ErDl_Alpha](#ErDl_Alpha)
+>>
+>> [ErDl_AmountX](#ErDl_AmountX)
+>>
+>> [ErDl_AmountY](#ErDl_AmountY)
+>>
+>> [ErDl_Blue](#ErDl_Blue)
+>>
+>> [ErDl_ClipSource](#ErDl_ClipSource)
+>>
+>> [ErDl_Filter](#ErDl_Filter)
+>>
+>> [ErDl_Green](#ErDl_Green)
+>>
+>> [ErDl_Red](#ErDl_Red)
+>>
+> Merge
+>
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [MO_Angle](#MO_Angle)
+>>
+>> [MO_ApplyMode](#MO_ApplyMode)
+>>
+>> [MO_ApplyOperator](#MO_ApplyOperator)
+>>
+>> [MO_BBoxOnly](#MO_BBoxOnly)
+>>
+>> [MO_BgAddSub](#MO_BgAddSub)
+>>
+>> [MO_BgAlphaGain](#MO_BgAlphaGain)
+>>
+>> [MO_BgZOffset](#MO_BgZOffset)
+>>
+>> [MO_BurnIn](#MO_BurnIn)
+>>
+>> [MO_DoZ](#MO_DoZ)
+>>
+>> [MO_EdgeMode](#MO_EdgeMode)
+>>
+>> [MO_FgAddSub](#MO_FgAddSub)
+>>
+>> [MO_FgAlphaGain](#MO_FgAlphaGain)
+>>
+>> [MO_FgBlueGain](#MO_FgBlueGain)
+>>
+>> [MO_FgGreenGain](#MO_FgGreenGain)
+>>
+>> [MO_FgRedGain](#MO_FgRedGain)
+>>
+>> [MO_FgZOffset](#MO_FgZOffset)
+>>
+>> [MO_MustDoCopy](#MO_MustDoCopy)
+>>
+>> [MO_UseOpenCL](#MO_UseOpenCL)
+>>
+>> [MO_XAxis](#MO_XAxis)
+>>
+>> [MO_XOffset](#MO_XOffset)
+>>
+>> [MO_XSize](#MO_XSize)
+>>
+>> [MO_YAxis](#MO_YAxis)
+>>
+>> [MO_YOffset](#MO_YOffset)
+>>
+>> [MO_YSize](#MO_YSize)
+>>
+> MergeOf
+>
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [MO_Angle](#MO_Angle)
+>>
+>> [MO_ApplyMode](#MO_ApplyMode)
+>>
+>> [MO_ApplyOperator](#MO_ApplyOperator)
+>>
+>> [MO_BBoxOnly](#MO_BBoxOnly)
+>>
+>> [MO_BgAddSub](#MO_BgAddSub)
+>>
+>> [MO_BgAlphaGain](#MO_BgAlphaGain)
+>>
+>> [MO_BgZOffset](#MO_BgZOffset)
+>>
+>> [MO_BurnIn](#MO_BurnIn)
+>>
+>> [MO_DoZ](#MO_DoZ)
+>>
+>> [MO_EdgeMode](#MO_EdgeMode)
+>>
+>> [MO_FgAddSub](#MO_FgAddSub)
+>>
+>> [MO_FgAlphaGain](#MO_FgAlphaGain)
+>>
+>> [MO_FgBlueGain](#MO_FgBlueGain)
+>>
+>> [MO_FgGreenGain](#MO_FgGreenGain)
+>>
+>> [MO_FgRedGain](#MO_FgRedGain)
+>>
+>> [MO_FgZOffset](#MO_FgZOffset)
+>>
+>> [MO_MustDoCopy](#MO_MustDoCopy)
+>>
+>> [MO_UseOpenCL](#MO_UseOpenCL)
+>>
+>> [MO_XAxis](#MO_XAxis)
+>>
+>> [MO_XOffset](#MO_XOffset)
+>>
+>> [MO_XSize](#MO_XSize)
+>>
+>> [MO_YAxis](#MO_YAxis)
+>>
+>> [MO_YOffset](#MO_YOffset)
+>>
+>> [MO_YSize](#MO_YSize)
+>>
+> OpenClose
+>
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [ErDl_Alpha](#ErDl_Alpha)
+>>
+>> [ErDl_AmountX](#ErDl_AmountX)
+>>
+>> [ErDl_AmountY](#ErDl_AmountY)
+>>
+>> [ErDl_Blue](#ErDl_Blue)
+>>
+>> [ErDl_ClipSource](#ErDl_ClipSource)
+>>
+>> [ErDl_Filter](#ErDl_Filter)
+>>
+>> [ErDl_Green](#ErDl_Green)
+>>
+>> [ErDl_Red](#ErDl_Red)
+>>
+> Process
+>
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [IMGPR_DoProgress](#IMGPR_DoProgress)
+>>
+>> [IMGPR_GPURequested](#IMGPR_GPURequested)
+>>
+>> [IMGPR_NoAbort](#IMGPR_NoAbort)
+>>
+>> [IMGPR_Operator](#IMGPR_Operator)
+>>
+>> [IMGPR_ProgressEnd](#IMGPR_ProgressEnd)
+>>
+>> [IMGPR_ProgressStart](#IMGPR_ProgressStart)
+>>
+>> [IMGPR_SourceReq](#IMGPR_SourceReq)
+>>
+> Resize
+>
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [RSZ_Depth](#RSZ_Depth)
+>>
+>> [RSZ_Filter](#RSZ_Filter)
+>>
+>> [RSZ_Height](#RSZ_Height)
+>>
+>> [RSZ_Width](#RSZ_Width)
+>>
+>> [RSZ_Window](#RSZ_Window)
+>>
+>> [RSZ_XEdgeMode](#RSZ_XEdgeMode)
+>>
+>> [RSZ_XOffset](#RSZ_XOffset)
+>>
+>> [RSZ_XSize](#RSZ_XSize)
+>>
+>> [RSZ_YEdgeMode](#RSZ_YEdgeMode)
+>>
+>> [RSZ_YOffset](#RSZ_YOffset)
+>>
+>> [RSZ_YSize](#RSZ_YSize)
+>>
+> Transform
+>
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [XF_Angle](#XF_Angle)
+>>
+>> [XF_EdgeMode](#XF_EdgeMode)
+>>
+>> [XF_Filter](#XF_Filter)
+>>
+>> [XF_XAxis](#XF_XAxis)
+>>
+>> [XF_XOffset](#XF_XOffset)
+>>
+>> [XF_XSize](#XF_XSize)
+>>
+>> [XF_YAxis](#XF_YAxis)
+>>
+>> [XF_YOffset](#XF_YOffset)
+>>
+>> [XF_YSize](#XF_YSize)
+>>
 ### Registry Attributes
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> [REGI_ClassType](#REGI_ClassType)
->
 > [REGB_ControlView](#REGB_ControlView)
 >
 > [REGB_Hide](#REGB_Hide)
->
-> [REGS_ID](#REGS_ID)
->
-> [REGS_Name](#REGS_Name)
->
-> [REGI_Priority](#REGI_Priority)
 >
 > [REGB_SupportsDoD](#REGB_SupportsDoD)
 >
@@ -535,7 +548,15 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [REGB_Utility_Toggle](#REGB_Utility_Toggle)
 >
+> [REGI_ClassType](#REGI_ClassType)
+>
+> [REGI_Priority](#REGI_Priority)
+>
 > [REGI_Version](#REGI_Version)
+>
+> [REGS_ID](#REGS_ID)
+>
+> [REGS_Name](#REGS_Name)
 >
 > [REGS_VersionString](#REGS_VersionString)
 >
@@ -1506,596 +1527,599 @@ ___
 
 # Tag Map: <!-- {docsify-ignore} -->
 
-### BLUR_YSize
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### BLUR_XSize
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### BLUR_AlphaScale
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### BLUR_BlueScale
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### BLUR_GreenScale
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### BLUR_RedScale
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### BLUR_Normalize
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### BLUR_Blend
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### BLUR_Red
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### BLUR_Green
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### BLUR_Blue
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### BLUR_Type
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.BlurType`
->
-> Possible BlurType values
-> - Box
-> - Soften
-> - Bartlett
-> - Sharpen
-> - Gaussian
-> - FastGaussian
-> - Hilight
-> - Blend
-> - Solarise
-> - MultiBox
->
-### BLUR_ExpandToFit
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### BLUR_Alpha
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### BLUR_ClipSource
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>## ApplyMatrix 
+>### ACM_ClipBlack
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### ACM_ClipWhite
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### ACM_PostGamma
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### ACM_PreGamma
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 ___
 
-### ErDl_Red
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### ErDl_AmountX
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### ErDl_AmountY
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### ErDl_Alpha
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### ErDl_Filter
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.ErodeDilateFilters`
->
-> Possible ErodeDilateFilters values
-> - Box
-> - Linear
-> - Gaussian
-> - Circle
->
-### ErDl_Blue
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### ErDl_Green
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### ErDl_ClipSource
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>## Blur 
+>### BLUR_Alpha
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### BLUR_AlphaScale
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### BLUR_Blend
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### BLUR_Blue
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### BLUR_BlueScale
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### BLUR_ClipSource
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### BLUR_ExpandToFit
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### BLUR_Green
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### BLUR_GreenScale
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### BLUR_Normalize
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### BLUR_Red
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### BLUR_RedScale
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### BLUR_Type
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.BlurType`
+>>
+>> Possible BlurType values
+>> - Box
+>> - Soften
+>> - Bartlett
+>> - Sharpen
+>> - Gaussian
+>> - FastGaussian
+>> - Hilight
+>> - Blend
+>> - Solarise
+>> - MultiBox
+>>
+>### BLUR_XSize
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### BLUR_YSize
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 ___
 
-### IMGPR_ProgressStart
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMGPR_SourceReq
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMGPR_Operator
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMGPR_ProgressEnd
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMGPR_NoAbort
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### IMGPR_DoProgress
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### IMGPR_GPURequested
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
+>## Create 
+>### IMAT_OriginalHeight
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMAT_OriginalWidth
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMAT_OriginalXScale
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMAT_OriginalYScale
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMG_Channel
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.Channel`
+>>
+>> Possible Channel values
+>> - Red
+>> - Green
+>> - Blue
+>> - Alpha
+>> - BgRed
+>> - BgGreen
+>> - BgBlue
+>> - BgAlpha
+>> - Z
+>> - U
+>> - V
+>> - W
+>> - Coverage
+>> - Object
+>> - Material
+>> - NormalX
+>> - NormalY
+>> - NormalZ
+>> - VectorX
+>> - VectorY
+>> - BackVectorX
+>> - BackVectorY
+>> - PositionX
+>> - PositionY
+>> - PositionZ
+>> - DisparityX
+>> - DisparityY
+>>
+>### IMG_CopyChannels
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### IMG_DataWindow
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMG_DeferAlloc
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### IMG_Depth
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMG_Document
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMG_Height
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMG_Like
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMG_MotionBlurQuality
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### IMG_PassThrough
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### IMG_PassThroughAux
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### IMG_ProxyScale
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMG_Quality
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### IMG_ValidWindow
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMG_Width
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMG_XScale
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMG_YScale
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 ___
 
-### ErDl_Red
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### ErDl_AmountX
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### ErDl_AmountY
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### ErDl_Alpha
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### ErDl_Filter
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.ErodeDilateFilters`
->
-> Possible ErodeDilateFilters values
-> - Box
-> - Linear
-> - Gaussian
-> - Circle
->
-### ErDl_Blue
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### ErDl_Green
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### ErDl_ClipSource
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>## Crop 
+>### CROP_Height
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CROP_Width
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CROP_XOffset
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CROP_YOffset
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 ___
 
-### ACM_PostGamma
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### ACM_ClipWhite
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### ACM_PreGamma
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### ACM_ClipBlack
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
+>## ErodeDilate 
+>### ErDl_Alpha
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### ErDl_AmountX
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### ErDl_AmountY
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### ErDl_Blue
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### ErDl_ClipSource
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### ErDl_Filter
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.ErodeDilateFilters`
+>>
+>> Possible ErodeDilateFilters values
+>> - Box
+>> - Linear
+>> - Gaussian
+>> - Circle
+>>
+>### ErDl_Green
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### ErDl_Red
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
 ___
 
-### MO_FgZOffset
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_FgBlueGain
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_FgGreenGain
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_FgRedGain
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_BurnIn
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_BgAddSub
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_BgAlphaGain
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_BgZOffset
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_FgAddSub
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_FgAlphaGain
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_MustDoCopy
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### MO_ApplyOperator
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.ApplyOperator`
->
-> Possible ApplyOperator values
-> - Over
-> - In
-> - HeldOut
-> - Atop
-> - XOr
-> - Conjoint
-> - Disjoint
-> - Mask
-> - Stencil
-> - Under
->
-### MO_BBoxOnly
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### MO_EdgeMode
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.EdgeMode`
->
-> Possible EdgeMode values
-> - Canvas
-> - Wrap
-> - Duplicate
->
-### MO_ApplyMode
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.ApplyMode`
->
-> Possible ApplyMode values
-> - Merge
-> - Screen
-> - Dissolve
-> - Multiply
-> - Overlay
-> - SoftLight
-> - HardLight
-> - ColorDodge
-> - ColorBurn
-> - Darken
-> - Lighten
-> - Difference
-> - Exclusion
-> - Hue
-> - Saturation
-> - Color
-> - Luminosity
-> - DarkerColor
-> - LighterColor
-> - LinearDodge
-> - LinearBurn
-> - VividLight
-> - LinearLight
-> - PinLight
-> - Hypotenuse
-> - Geometric
->
-### MO_UseOpenCL
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### MO_YSize
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_YOffset
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_XAxis
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_YAxis
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_XSize
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_DoZ
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### MO_Angle
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_XOffset
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>## Merge 
+>### MO_Angle
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_ApplyMode
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.ApplyMode`
+>>
+>> Possible ApplyMode values
+>> - Merge
+>> - Screen
+>> - Dissolve
+>> - Multiply
+>> - Overlay
+>> - SoftLight
+>> - HardLight
+>> - ColorDodge
+>> - ColorBurn
+>> - Darken
+>> - Lighten
+>> - Difference
+>> - Exclusion
+>> - Hue
+>> - Saturation
+>> - Color
+>> - Luminosity
+>> - DarkerColor
+>> - LighterColor
+>> - LinearDodge
+>> - LinearBurn
+>> - VividLight
+>> - LinearLight
+>> - PinLight
+>> - Hypotenuse
+>> - Geometric
+>>
+>### MO_ApplyOperator
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.ApplyOperator`
+>>
+>> Possible ApplyOperator values
+>> - Over
+>> - In
+>> - HeldOut
+>> - Atop
+>> - XOr
+>> - Conjoint
+>> - Disjoint
+>> - Mask
+>> - Stencil
+>> - Under
+>>
+>### MO_BBoxOnly
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### MO_BgAddSub
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_BgAlphaGain
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_BgZOffset
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_BurnIn
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_DoZ
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### MO_EdgeMode
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.EdgeMode`
+>>
+>> Possible EdgeMode values
+>> - Canvas
+>> - Wrap
+>> - Duplicate
+>>
+>### MO_FgAddSub
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_FgAlphaGain
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_FgBlueGain
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_FgGreenGain
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_FgRedGain
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_FgZOffset
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_MustDoCopy
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### MO_UseOpenCL
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### MO_XAxis
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_XOffset
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_XSize
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_YAxis
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_YOffset
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_YSize
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 ___
 
-### MO_FgZOffset
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_FgBlueGain
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_FgGreenGain
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_FgRedGain
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_BurnIn
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_BgAddSub
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_BgAlphaGain
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_BgZOffset
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_FgAddSub
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_FgAlphaGain
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_MustDoCopy
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### MO_ApplyOperator
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.ApplyOperator`
->
-> Possible ApplyOperator values
-> - Over
-> - In
-> - HeldOut
-> - Atop
-> - XOr
-> - Conjoint
-> - Disjoint
-> - Mask
-> - Stencil
-> - Under
->
-### MO_BBoxOnly
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### MO_EdgeMode
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.EdgeMode`
->
-> Possible EdgeMode values
-> - Canvas
-> - Wrap
-> - Duplicate
->
-### MO_ApplyMode
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.ApplyMode`
->
-> Possible ApplyMode values
-> - Merge
-> - Screen
-> - Dissolve
-> - Multiply
-> - Overlay
-> - SoftLight
-> - HardLight
-> - ColorDodge
-> - ColorBurn
-> - Darken
-> - Lighten
-> - Difference
-> - Exclusion
-> - Hue
-> - Saturation
-> - Color
-> - Luminosity
-> - DarkerColor
-> - LighterColor
-> - LinearDodge
-> - LinearBurn
-> - VividLight
-> - LinearLight
-> - PinLight
-> - Hypotenuse
-> - Geometric
->
-### MO_UseOpenCL
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### MO_YSize
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_YOffset
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_XAxis
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_YAxis
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_XSize
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_DoZ
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### MO_Angle
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### MO_XOffset
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>## MergeOf 
+>### MO_Angle
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_ApplyMode
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.ApplyMode`
+>>
+>> Possible ApplyMode values
+>> - Merge
+>> - Screen
+>> - Dissolve
+>> - Multiply
+>> - Overlay
+>> - SoftLight
+>> - HardLight
+>> - ColorDodge
+>> - ColorBurn
+>> - Darken
+>> - Lighten
+>> - Difference
+>> - Exclusion
+>> - Hue
+>> - Saturation
+>> - Color
+>> - Luminosity
+>> - DarkerColor
+>> - LighterColor
+>> - LinearDodge
+>> - LinearBurn
+>> - VividLight
+>> - LinearLight
+>> - PinLight
+>> - Hypotenuse
+>> - Geometric
+>>
+>### MO_ApplyOperator
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.ApplyOperator`
+>>
+>> Possible ApplyOperator values
+>> - Over
+>> - In
+>> - HeldOut
+>> - Atop
+>> - XOr
+>> - Conjoint
+>> - Disjoint
+>> - Mask
+>> - Stencil
+>> - Under
+>>
+>### MO_BBoxOnly
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### MO_BgAddSub
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_BgAlphaGain
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_BgZOffset
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_BurnIn
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_DoZ
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### MO_EdgeMode
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.EdgeMode`
+>>
+>> Possible EdgeMode values
+>> - Canvas
+>> - Wrap
+>> - Duplicate
+>>
+>### MO_FgAddSub
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_FgAlphaGain
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_FgBlueGain
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_FgGreenGain
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_FgRedGain
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_FgZOffset
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_MustDoCopy
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### MO_UseOpenCL
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### MO_XAxis
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_XOffset
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_XSize
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_YAxis
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_YOffset
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### MO_YSize
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 ___
 
-### IMAT_OriginalXScale
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMG_Like
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMG_YScale
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMG_DataWindow
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMG_ValidWindow
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMAT_OriginalYScale
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMG_XScale
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMG_PassThroughAux
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### IMG_PassThrough
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### IMG_Quality
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### IMG_CopyChannels
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### IMG_Width
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMG_Channel
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.Channel`
->
-> Possible Channel values
-> - Red
-> - Green
-> - Blue
-> - Alpha
-> - BgRed
-> - BgGreen
-> - BgBlue
-> - BgAlpha
-> - Z
-> - U
-> - V
-> - W
-> - Coverage
-> - Object
-> - Material
-> - NormalX
-> - NormalY
-> - NormalZ
-> - VectorX
-> - VectorY
-> - BackVectorX
-> - BackVectorY
-> - PositionX
-> - PositionY
-> - PositionZ
-> - DisparityX
-> - DisparityY
->
-### IMG_ProxyScale
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMG_Depth
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMG_Height
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMAT_OriginalWidth
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMAT_OriginalHeight
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### IMG_MotionBlurQuality
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### IMG_DeferAlloc
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### IMG_Document
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>## OpenClose 
+>### ErDl_Alpha
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### ErDl_AmountX
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### ErDl_AmountY
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### ErDl_Blue
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### ErDl_ClipSource
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### ErDl_Filter
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.ErodeDilateFilters`
+>>
+>> Possible ErodeDilateFilters values
+>> - Box
+>> - Linear
+>> - Gaussian
+>> - Circle
+>>
+>### ErDl_Green
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### ErDl_Red
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
 ___
 
-### CROP_Height
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### CROP_YOffset
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### CROP_Width
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### CROP_XOffset
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>## Process 
+>### IMGPR_DoProgress
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### IMGPR_GPURequested
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### IMGPR_NoAbort
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### IMGPR_Operator
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMGPR_ProgressEnd
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMGPR_ProgressStart
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### IMGPR_SourceReq
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 ___
 
-### RSZ_XSize
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### RSZ_YOffset
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### RSZ_XOffset
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### RSZ_YSize
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### RSZ_Height
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### RSZ_Depth
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### RSZ_Filter
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.FilterType`
->
-> Possible FilterType values
-> - TopLeft
-> - Nearest
-> - Box
-> - BiLinear
-> - BiCubic
-> - BSpline
-> - CatmulRom
-> - Gaussian
-> - Mitchell
-> - Lanczos
-> - Sinc
-> - Bessel
->
-### RSZ_Width
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### RSZ_YEdgeMode
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.EdgeMode`
->
-> Possible EdgeMode values
-> - Canvas
-> - Wrap
-> - Duplicate
->
-### RSZ_Window
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.WindowType`
->
-> Possible WindowType values
-> - Hanning
-> - Kaiser
-> - Hamming
-> - Blackman
->
-### RSZ_XEdgeMode
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.EdgeMode`
->
-> Possible EdgeMode values
-> - Canvas
-> - Wrap
-> - Duplicate
->
+>## Resize 
+>### RSZ_Depth
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RSZ_Filter
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.FilterType`
+>>
+>> Possible FilterType values
+>> - TopLeft
+>> - Nearest
+>> - Box
+>> - BiLinear
+>> - BiCubic
+>> - BSpline
+>> - CatmulRom
+>> - Gaussian
+>> - Mitchell
+>> - Lanczos
+>> - Sinc
+>> - Bessel
+>>
+>### RSZ_Height
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RSZ_Width
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RSZ_Window
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.WindowType`
+>>
+>> Possible WindowType values
+>> - Kaiser
+>> - Hanning
+>> - Hamming
+>> - Blackman
+>>
+>### RSZ_XEdgeMode
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.EdgeMode`
+>>
+>> Possible EdgeMode values
+>> - Canvas
+>> - Wrap
+>> - Duplicate
+>>
+>### RSZ_XOffset
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RSZ_XSize
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RSZ_YEdgeMode
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.EdgeMode`
+>>
+>> Possible EdgeMode values
+>> - Canvas
+>> - Wrap
+>> - Duplicate
+>>
+>### RSZ_YOffset
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RSZ_YSize
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 ___
 
-### XF_YSize
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### XF_Angle
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### XF_XOffset
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### XF_EdgeMode
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.EdgeMode`
->
-> Possible EdgeMode values
-> - Canvas
-> - Wrap
-> - Duplicate
->
-### XF_YAxis
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### XF_XAxis
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### XF_Filter
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: Image.FilterType`
->
-> Possible FilterType values
-> - TopLeft
-> - Nearest
-> - Box
-> - BiLinear
-> - BiCubic
-> - BSpline
-> - CatmulRom
-> - Gaussian
-> - Mitchell
-> - Lanczos
-> - Sinc
-> - Bessel
->
-### XF_XSize
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### XF_YOffset
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>## Transform 
+>### XF_Angle
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### XF_EdgeMode
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.EdgeMode`
+>>
+>> Possible EdgeMode values
+>> - Canvas
+>> - Wrap
+>> - Duplicate
+>>
+>### XF_Filter
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Image.FilterType`
+>>
+>> Possible FilterType values
+>> - TopLeft
+>> - Nearest
+>> - Box
+>> - BiLinear
+>> - BiCubic
+>> - BSpline
+>> - CatmulRom
+>> - Gaussian
+>> - Mitchell
+>> - Lanczos
+>> - Sinc
+>> - Bessel
+>>
+>### XF_XAxis
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### XF_XOffset
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### XF_XSize
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### XF_YAxis
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### XF_YOffset
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### XF_YSize
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 ___
 
 
 # Registry Attributes: <!-- {docsify-ignore} -->
-
-### REGI_ClassType
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 1507328 = CT_Parameter
->
-___
 
 ### REGB_ControlView
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
@@ -2110,30 +2134,6 @@ ___
 > `Type: boolean`
 >
 > false
->
-___
-
-### REGS_ID
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> Image
->
-___
-
-### REGS_Name
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> Image
->
-___
-
-### REGI_Priority
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 0
 >
 ___
 
@@ -2161,6 +2161,22 @@ ___
 >
 ___
 
+### REGI_ClassType
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 1507328 = CT_Parameter
+>
+___
+
+### REGI_Priority
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0
+>
+___
+
 ### REGI_Version
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: number (integer)`
@@ -2169,11 +2185,27 @@ ___
 >
 ___
 
+### REGS_ID
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> Image
+>
+___
+
+### REGS_Name
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> Image
+>
+___
+
 ### REGS_VersionString
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Dec  7 2022
+> Built: Jan 25 2023
 >
 ___
 

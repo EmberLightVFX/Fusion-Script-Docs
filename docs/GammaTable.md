@@ -10,6 +10,8 @@ Discovered properties might be available in many contexts, but most typically in
 ### Discovered Methods  
 Discovered methods might be available in many contexts, but most typically in Fuse scripts  
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> [GammaTable](#GammaTable)()
+>
 > [InitNoTable](#InitNoTable)()
 >
 > [InitTable](#InitTable)()
@@ -19,8 +21,6 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [Lookup](#Lookup)()
 >
 > [LookupFlt](#LookupFlt)()
->
-> [GammaTable](#GammaTable)()
 >
 ___
 
@@ -44,6 +44,16 @@ ___
 
 
 # Discovered Methods: <!-- {docsify-ignore} -->
+
+### GammaTable()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> GammaTable constructor
+>
+> ```php
+GammaTable GammaTable()
+> ```
+>
+___
 
 ### InitNoTable()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
@@ -81,16 +91,6 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
 float32 GammaTable:LookupFlt(float32 x)
-> ```
->
-___
-
-### GammaTable()
-> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> GammaTable constructor
->
-> ```php
-GammaTable GammaTable()
 > ```
 >
 ___

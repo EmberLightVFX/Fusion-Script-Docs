@@ -54,13 +54,13 @@ Discovered properties might be available in many contexts, but most typically in
 ### Discovered Methods  
 Discovered methods might be available in many contexts, but most typically in Fuse scripts  
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> [ChannelStyle](#ChannelStyle)()
+>
 > [GetImageTransformInverse](#GetImageTransformInverse)()
 >
 > [IsRenderCompatibleWith](#IsRenderCompatibleWith)()
 >
 > [RequiresNewImage](#RequiresNewImage)()
->
-> [ChannelStyle](#ChannelStyle)()
 >
 ___
 
@@ -261,6 +261,16 @@ ___
 
 # Discovered Methods: <!-- {docsify-ignore} -->
 
+### ChannelStyle()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ChannelStyle constructor
+>
+> ```php
+ChannelStyle ChannelStyle()
+> ```
+>
+___
+
 ### GetImageTransformInverse()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
@@ -281,16 +291,6 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
 boolean ChannelStyle:RequiresNewImage(int line, int tab, int word, int ch)
-> ```
->
-___
-
-### ChannelStyle()
-> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> ChannelStyle constructor
->
-> ```php
-ChannelStyle ChannelStyle()
 > ```
 >
 ___

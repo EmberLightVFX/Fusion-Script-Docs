@@ -34,9 +34,9 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > [ActualThickness](#ActualThickness)()
 >
-> [IsTraceCompatibleWith](#IsTraceCompatibleWith)()
->
 > [FillStyle](#FillStyle)()
+>
+> [IsTraceCompatibleWith](#IsTraceCompatibleWith)()
 >
 ___
 
@@ -157,20 +157,20 @@ float64 FillStyle:ActualThickness()
 >
 ___
 
-### IsTraceCompatibleWith()
-> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> ```php
-boolean FillStyle:IsTraceCompatibleWith(FillStyle style)
-> ```
->
-___
-
 ### FillStyle()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > FillStyle constructor
 >
 > ```php
 FillStyle FillStyle()
+> ```
+>
+___
+
+### IsTraceCompatibleWith()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+boolean FillStyle:IsTraceCompatibleWith(FillStyle style)
 > ```
 >
 ___

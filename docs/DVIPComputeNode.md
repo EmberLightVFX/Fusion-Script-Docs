@@ -9,6 +9,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [AddSampler](#AddSampler)()
 >
+> [DVIPComputeNode](#DVIPComputeNode)()
+>
 > [ForceRebuild](#ForceRebuild)()
 >
 > [GetErrorLog](#GetErrorLog)()
@@ -26,8 +28,6 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [SetParamStructCopy](#SetParamStructCopy)()
 >
 > [SetWorkSize](#SetWorkSize)()
->
-> [DVIPComputeNode](#DVIPComputeNode)()
 >
 ___
 
@@ -53,6 +53,16 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
  DVIPComputeNode:AddSampler(string name, int filterMode, int addressMode, int normCoordsMode)
+> ```
+>
+___
+
+### DVIPComputeNode()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> DVIPComputeNode constructor
+>
+> ```php
+DVIPComputeNode DVIPComputeNode(Request req, string kernelName, string source, string kernelParamsName, string kernelParams)
 > ```
 >
 ___
@@ -125,16 +135,6 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
  DVIPComputeNode:SetWorkSize(int w, int h, int d)
-> ```
->
-___
-
-### DVIPComputeNode()
-> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> DVIPComputeNode constructor
->
-> ```php
-DVIPComputeNode DVIPComputeNode(Request req, string kernelName, string source, string kernelParamsName, string kernelParams)
 > ```
 >
 ___

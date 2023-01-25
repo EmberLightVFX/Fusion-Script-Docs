@@ -10,9 +10,9 @@ Discovered properties might be available in many contexts, but most typically in
 ### Discovered Methods  
 Discovered methods might be available in many contexts, but most typically in Fuse scripts  
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> [Save](#Save)()
->
 > [MemBlock](#MemBlock)()
+>
+> [Save](#Save)()
 >
 ___
 
@@ -37,20 +37,20 @@ ___
 
 # Discovered Methods: <!-- {docsify-ignore} -->
 
-### Save()
-> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> ```php
-boolean MemBlock:Save(string filename)
-> ```
->
-___
-
 ### MemBlock()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > MemBlock constructor
 >
 > ```php
 MemBlock MemBlock()
+> ```
+>
+___
+
+### Save()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+boolean MemBlock:Save(string filename)
 > ```
 >
 ___

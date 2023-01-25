@@ -144,47 +144,50 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [UnlockOutputData](#UnlockOutputData)()
 >
 ### Tag Map
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [RQA_BaseTime](#RQA_BaseTime)
+> InputAttrs
 >
-> [RQA_DestImgTags](#RQA_DestImgTags)
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [OPRAO_ImageDoD](#OPRAO_ImageDoD)
+>>
+>> [OPRAO_ImageRoI](#OPRAO_ImageRoI)
+>>
+>> [OPRAO_NormalisedRoI](#OPRAO_NormalisedRoI)
+>>
+>> [OPRAO_RootImage](#OPRAO_RootImage)
+>>
+>> [OPRA_SkipProcess](#OPRA_SkipProcess)
+>>
+> ReqAttrs
 >
-> [RQA_DestImg](#RQA_DestImg)
->
-> [RQA_MultiLayer](#RQA_MultiLayer)
->
-> [RQA_Request](#RQA_Request)
->
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> [OPRAO_NormalisedRoI](#OPRAO_NormalisedRoI)
->
-> [OPRAO_RootImage](#OPRAO_RootImage)
->
-> [OPRA_SkipProcess](#OPRA_SkipProcess)
->
-> [OPRAO_ImageRoI](#OPRAO_ImageRoI)
->
-> [OPRAO_ImageDoD](#OPRAO_ImageDoD)
->
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [RQA_BaseTime](#RQA_BaseTime)
+>>
+>> [RQA_DestImg](#RQA_DestImg)
+>>
+>> [RQA_DestImgTags](#RQA_DestImgTags)
+>>
+>> [RQA_MultiLayer](#RQA_MultiLayer)
+>>
+>> [RQA_Request](#RQA_Request)
+>>
 ### Registry Attributes
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> [REGI_ClassType](#REGI_ClassType)
->
 > [REGB_ControlView](#REGB_ControlView)
 >
 > [REGB_Hide](#REGB_Hide)
->
-> [REGS_ID](#REGS_ID)
->
-> [REGS_Name](#REGS_Name)
->
-> [REGI_Priority](#REGI_Priority)
 >
 > [REGB_SupportsDoD](#REGB_SupportsDoD)
 >
 > [REGB_Unpredictable](#REGB_Unpredictable)
 >
+> [REGI_ClassType](#REGI_ClassType)
+>
+> [REGI_Priority](#REGI_Priority)
+>
 > [REGI_Version](#REGI_Version)
+>
+> [REGS_ID](#REGS_ID)
+>
+> [REGS_Name](#REGS_Name)
 >
 > [REGS_VersionString](#REGS_VersionString)
 >
@@ -742,44 +745,38 @@ ___
 
 # Tag Map: <!-- {docsify-ignore} -->
 
-### RQA_BaseTime
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### RQA_DestImgTags
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### RQA_DestImg
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### RQA_MultiLayer
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### RQA_Request
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>## InputAttrs 
+>### OPRAO_ImageDoD
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### OPRAO_ImageRoI
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### OPRAO_NormalisedRoI
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### OPRAO_RootImage
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### OPRA_SkipProcess
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
 ___
 
-### OPRAO_NormalisedRoI
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### OPRAO_RootImage
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### OPRA_SkipProcess
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: boolean`
->
-### OPRAO_ImageRoI
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
-### OPRAO_ImageDoD
-> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>## ReqAttrs 
+>### RQA_BaseTime
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RQA_DestImg
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RQA_DestImgTags
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RQA_MultiLayer
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### RQA_Request
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 ___
 
 
 # Registry Attributes: <!-- {docsify-ignore} -->
-
-### REGI_ClassType
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 0 = CT_Any
->
-___
 
 ### REGB_ControlView
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
@@ -794,30 +791,6 @@ ___
 > `Type: boolean`
 >
 > false
->
-___
-
-### REGS_ID
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> Request
->
-___
-
-### REGS_Name
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> Request
->
-___
-
-### REGI_Priority
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: number (integer)`
->
-> 0
 >
 ___
 
@@ -837,6 +810,22 @@ ___
 >
 ___
 
+### REGI_ClassType
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0 = CT_Any
+>
+___
+
+### REGI_Priority
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: number (integer)`
+>
+> 0
+>
+___
+
 ### REGI_Version
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: number (integer)`
@@ -845,11 +834,27 @@ ___
 >
 ___
 
+### REGS_ID
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> Request
+>
+___
+
+### REGS_Name
+> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: string`
+>
+> Request
+>
+___
+
 ### REGS_VersionString
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Dec  7 2022
+> Built: Jan 25 2023
 >
 ___
 

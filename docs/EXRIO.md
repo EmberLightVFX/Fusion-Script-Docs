@@ -24,6 +24,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [DisplayWindow](#DisplayWindow)()
 >
+> [EXRIO](#EXRIO)()
+>
 > [FindPart](#FindPart)()
 >
 > [GetLastError](#GetLastError)()
@@ -43,8 +45,6 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [_ReadPart](#_ReadPart)()
 >
 > [_WritePart](#_WritePart)()
->
-> [EXRIO](#EXRIO)()
 >
 ___
 
@@ -125,6 +125,16 @@ ImgRectI EXRIO:DisplayWindow(int partnum)
 >
 ___
 
+### EXRIO()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> EXRIO constructor
+>
+> ```php
+EXRIO EXRIO()
+> ```
+>
+___
+
 ### FindPart()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
@@ -201,16 +211,6 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
 boolean EXRIO:_WritePart(int partnum, Image imgs)
-> ```
->
-___
-
-### EXRIO()
-> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> EXRIO constructor
->
-> ```php
-EXRIO EXRIO()
 > ```
 >
 ___

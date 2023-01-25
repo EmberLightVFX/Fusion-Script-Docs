@@ -3,25 +3,19 @@ ___
 ### Added Methods  
 Manually added methods are known but not documented or discoverable  
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> [GetMountedVolumes](#GetMountedVolumes)()
->
-> [GetSubFolders](#GetSubFolders)()
+> [AddItemsToMediaPool](#AddItemsToMediaPool)()
 >
 > [GetFiles](#GetFiles)()
 >
-> [AddItemsToMediaPool](#AddItemsToMediaPool)()
+> [GetMountedVolumes](#GetMountedVolumes)()
+>
+> [GetSubFolders](#GetSubFolders)()
 >
 ___
 
 # Added Methods: <!-- {docsify-ignore} -->
 
-### GetMountedVolumes()
-> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> Deprecated
->
-___
-
-### GetSubFolders()
+### AddItemsToMediaPool()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > Deprecated
 >
@@ -33,7 +27,13 @@ ___
 >
 ___
 
-### AddItemsToMediaPool()
+### GetMountedVolumes()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Deprecated
+>
+___
+
+### GetSubFolders()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > Deprecated
 >
