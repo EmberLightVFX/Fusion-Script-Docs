@@ -10,8 +10,6 @@ Discovered properties might be available in many contexts, but most typically in
 ### Discovered Methods  
 Discovered methods might be available in many contexts, but most typically in Fuse scripts  
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> [Distance](#Distance)()
->
 > [IsNull](#IsNull)()
 >
 > [Length](#Length)()
@@ -60,14 +58,6 @@ ___
 
 
 # Discovered Methods: <!-- {docsify-ignore} -->
-
-### Distance()
-> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> ```php
-float64 Vector2:Distance(Vector2 vec)
-> ```
->
-___
 
 ### IsNull()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]

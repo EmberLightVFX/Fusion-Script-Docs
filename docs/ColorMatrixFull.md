@@ -84,7 +84,7 @@ ___
 ### Determinant()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
-ð@float64 ColorMatrixFull:Determinant()
+float64 ColorMatrixFull:Determinant()
 > ```
 >
 ___

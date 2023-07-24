@@ -34,6 +34,8 @@ Discovered properties might be available in many contexts, but most typically in
 >
 > [IsRegClassType](#IsRegClassType)()
 >
+> [New](#New)()
+>
 ### Discovered Methods  
 Discovered methods might be available in many contexts, but most typically in Fuse scripts  
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
@@ -364,6 +366,16 @@ ___
 >
 > ```php
 boolean Registry:IsRegClassType()
+> ```
+>
+___
+
+### New()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Returns a new instance of this class type
+>
+> ```php
+object Registry:New([table object saved settings])
 > ```
 >
 ___
@@ -770,7 +782,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jan 25 2023
+> Built: Jul 19 2023
 >
 ___
 

@@ -10,3 +10,6 @@
 
 [GitHub](https://github.com/EmberLightVFX/Fusion-Script-Docs)
 [Get Started](#blackmagic-design-fusion-script-docs)
+
+- Generated with Fusion Studio 18.5 build 73
+- Built Jul 19 2023

@@ -1,5 +1,5 @@
 # GLImageViewer
- : [Object](Object.md) : [GLViewer](GLViewer.md)
+ : [Object](Object.md) : [GLViewer](GLViewer.md) : [GLImageViewerBase](GLImageViewerBase.md)
 ___
 ### Methods  
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
@@ -323,7 +323,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jan 25 2023
+> Built: Jul 19 2023
 >
 ___
 

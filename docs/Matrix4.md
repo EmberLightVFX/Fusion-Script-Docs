@@ -44,6 +44,12 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [Scale](#Scale)()
 >
+> [SetIdentity](#SetIdentity)()
+>
+> [SetOne](#SetOne)()
+>
+> [SetZero](#SetZero)()
+>
 > [Shear](#Shear)()
 >
 > [TransformNormal](#TransformNormal)()
@@ -219,6 +225,30 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
  Matrix4:Scale(float64 x, float64 y, float64 z)
+> ```
+>
+___
+
+### SetIdentity()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+ Matrix4:SetIdentity()
+> ```
+>
+___
+
+### SetOne()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+ Matrix4:SetOne()
+> ```
+>
+___
+
+### SetZero()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+ Matrix4:SetZero()
 > ```
 >
 ___

@@ -40,9 +40,13 @@ Discovered properties might be available in many contexts, but most typically in
 >>
 >> [LINK_DoNotSave](#LINK_DoNotSave)
 >>
+>> [LINK_DrawBoldConnection](#LINK_DrawBoldConnection)
+>>
 >> [LINK_ForceSave](#LINK_ForceSave)
 >>
 >> [LINK_Main](#LINK_Main)
+>>
+>> [LINK_NotColored](#LINK_NotColored)
 >>
 >> [LINK_Version](#LINK_Version)
 >>
@@ -161,12 +165,20 @@ ___
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >> `Type: boolean`
 >>
+>### LINK_DrawBoldConnection
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
 >### LINK_ForceSave
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >> `Type: boolean`
 >>
 >### LINK_Main
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### LINK_NotColored
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
 >### LINK_Version
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### LINK_Visible
@@ -254,7 +266,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jan 25 2023
+> Built: Jul 19 2023
 >
 ___
 

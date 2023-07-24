@@ -112,6 +112,7 @@ ___
 >> - CMY_Y
 >> - HSV_H
 >> - HLS_L
+>> - HLS_S
 >> - HSV_S
 >> - YUV_U
 >> - YUV_V
@@ -120,10 +121,9 @@ ___
 >> - RGB_G
 >> - RGB_R
 >> - YIQ_Y
+>> - CMY_C
 >> - RGB_B
 >> - HSV_V
->> - HLS_S
->> - CMY_C
 >>
 >### SPC_HorizontalGridLines
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -141,6 +141,7 @@ ___
 >> - CMY_Y
 >> - HSV_H
 >> - HLS_L
+>> - HLS_S
 >> - HSV_S
 >> - YUV_U
 >> - YUV_V
@@ -149,10 +150,9 @@ ___
 >> - RGB_G
 >> - RGB_R
 >> - YIQ_Y
+>> - CMY_C
 >> - RGB_B
 >> - HSV_V
->> - HLS_S
->> - CMY_C
 >>
 >### SPC_Margin
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -170,6 +170,7 @@ ___
 >> - CMY_Y
 >> - HSV_H
 >> - HLS_L
+>> - HLS_S
 >> - HSV_S
 >> - YUV_U
 >> - YUV_V
@@ -178,10 +179,9 @@ ___
 >> - RGB_G
 >> - RGB_R
 >> - YIQ_Y
+>> - CMY_C
 >> - RGB_B
 >> - HSV_V
->> - HLS_S
->> - CMY_C
 >>
 >### SPC_Show
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -296,7 +296,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jan 25 2023
+> Built: Jul 19 2023
 >
 ___
 

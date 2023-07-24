@@ -65,8 +65,6 @@ ___
 >
 > [DumpGLObjects](#DumpGLObjects)()
 >
-> [DumpGraphicsHardwareInfo](#DumpGraphicsHardwareInfo)()
->
 > [EditScript](#EditScript)()
 >
 > [Execute](#Execute)()
@@ -476,16 +474,6 @@ ___
 >
 > ```php
 boolean Fusion:DumpGLObjects(string filename)
-> ```
->
-___
-
-### DumpGraphicsHardwareInfo()
-> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> Dumps OpenGL Objects
->
-> ```php
-boolean Fusion:DumpGraphicsHardwareInfo(string filename)
 > ```
 >
 ___
@@ -1224,7 +1212,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jan 25 2023
+> Built: Jul 19 2023
 >
 ___
 

@@ -7,6 +7,8 @@ ___
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >> [CMCD_SetApertureHeight](#CMCD_SetApertureHeight)
 >>
+>> [CMCD_SetApertureScale](#CMCD_SetApertureScale)
+>>
 >> [CMCD_SetApertureWidth](#CMCD_SetApertureWidth)
 >>
 >> [CMCD_SetConvergenceDistance](#CMCD_SetConvergenceDistance)
@@ -14,6 +16,8 @@ ___
 >> [CMCD_SetEyeSeparation](#CMCD_SetEyeSeparation)
 >>
 >> [CMCD_SetFLength](#CMCD_SetFLength)
+>>
+>> [CMCD_SetLensShiftScale](#CMCD_SetLensShiftScale)
 >>
 >> [CMCD_SetLensShiftX](#CMCD_SetLensShiftX)
 >>
@@ -32,6 +36,8 @@ ___
 >> [CMC_SetConvergenceDistanceVis](#CMC_SetConvergenceDistanceVis)
 >>
 >> [CMC_SetFrustumVis](#CMC_SetFrustumVis)
+>>
+>> [CMC_SetLensShiftScaleAbsolute](#CMC_SetLensShiftScaleAbsolute)
 >>
 >> [CMC_SetPerspFarClipSub](#CMC_SetPerspFarClipSub)
 >>
@@ -84,6 +90,8 @@ ___
 > : [PreviewControl.Create](PreviewControl.md#Create)
 >### CMCD_SetApertureHeight
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CMCD_SetApertureScale
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### CMCD_SetApertureWidth
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### CMCD_SetConvergenceDistance
@@ -91,6 +99,8 @@ ___
 >### CMCD_SetEyeSeparation
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### CMCD_SetFLength
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CMCD_SetLensShiftScale
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### CMCD_SetLensShiftX
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -113,6 +123,10 @@ ___
 >> `Type: boolean`
 >>
 >### CMC_SetFrustumVis
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### CMC_SetLensShiftScaleAbsolute
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >> `Type: boolean`
 >>
@@ -247,7 +261,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jan 25 2023
+> Built: Jul 19 2023
 >
 ___
 

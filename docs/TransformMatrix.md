@@ -495,9 +495,9 @@ ___
 >> `Type: TransformMatrix.WindowType`
 >>
 >> Possible WindowType values
->> - Kaiser
->> - Hanning
 >> - Hamming
+>> - Hanning
+>> - Kaiser
 >> - Blackman
 >>
 >### MTX_Flatten
@@ -669,7 +669,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jan 25 2023
+> Built: Jul 19 2023
 >
 ___
 

@@ -5,7 +5,19 @@ ___
 > Create
 >
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [CLC_DisplayFlags](#CLC_DisplayFlags)
+>>
+>> [CLC_EnableMultiselect](#CLC_EnableMultiselect)
+>>
+>> [CLC_EnableReordering](#CLC_EnableReordering)
+>>
 >> [CLC_Rows](#CLC_Rows)
+>>
+>> [CLC_SelectedItem](#CLC_SelectedItem)
+>>
+>> [CLC_TriState](#CLC_TriState)
+>>
+>> [CLC_UpsideDown](#CLC_UpsideDown)
 >>
 ### Registry Attributes
 > [REGB_ControlView](#REGB_ControlView)
@@ -38,7 +50,19 @@ ___
 
 >## Create 
 > : [InputControl.Create](InputControl.md#Create)
+>### CLC_DisplayFlags
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CLC_EnableMultiselect
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CLC_EnableReordering
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### CLC_Rows
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CLC_SelectedItem
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CLC_TriState
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CLC_UpsideDown
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 ___
 
@@ -137,7 +161,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jan 25 2023
+> Built: Jul 19 2023
 >
 ___
 
