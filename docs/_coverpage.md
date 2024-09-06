@@ -8,8 +8,8 @@
 
 - Based of Roger Magnusson's Class Browser
 
-- Generated with Fusion Studio 18.5 build 73
-- Built Jul 19 2023
+- Generated with Fusion Studio 19.0 build 59
+- Built Aug 21 2024
 
 [GitHub](https://github.com/EmberLightVFX/Fusion-Script-Docs)
 [Get Started](#blackmagic-design-fusion-script-docs)
