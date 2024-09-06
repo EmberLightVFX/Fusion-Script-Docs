@@ -37,6 +37,10 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >>
 >> [INPP_SourceImgInput](#INPP_SourceImgInput)
 >>
+>> [INPP_SourceImgParamPtr](#INPP_SourceImgParamPtr)
+>>
+>> [INPP_SourceImgParamValid](#INPP_SourceImgParamValid)
+>>
 >> [INPS_DefaultText](#INPS_DefaultText)
 >>
 >> [INPS_HelpText](#INPS_HelpText)
@@ -219,6 +223,10 @@ ___
 >### INPP_Source
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### INPP_SourceImgInput
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### INPP_SourceImgParamPtr
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### INPP_SourceImgParamValid
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### INPS_DefaultText
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -461,7 +469,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jul 19 2023
+> Built: Aug 21 2024
 >
 ___
 

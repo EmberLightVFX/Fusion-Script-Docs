@@ -41,6 +41,8 @@ ___
 >>
 >> [PLCID_Displacement](#PLCID_Displacement)
 >>
+>> [PLCID_InPolyLine](#PLCID_InPolyLine)
+>>
 >> [PLCID_InPolyLine2](#PLCID_InPolyLine2)
 >>
 >> [PLCID_Size](#PLCID_Size)
@@ -68,6 +70,8 @@ ___
 >> [PLCP_CurrentTimePoint](#PLCP_CurrentTimePoint)
 >>
 >> [PLCP_Displacement](#PLCP_Displacement)
+>>
+>> [PLCP_InPolyLine](#PLCP_InPolyLine)
 >>
 >> [PLCP_InPolyLine2](#PLCP_InPolyLine2)
 >>
@@ -180,6 +184,8 @@ ___
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### PLCID_Displacement
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### PLCID_InPolyLine
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### PLCID_InPolyLine2
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### PLCID_Size
@@ -207,6 +213,8 @@ ___
 >### PLCP_CurrentTimePoint
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### PLCP_Displacement
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### PLCP_InPolyLine
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### PLCP_InPolyLine2
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -357,7 +365,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> C:\Program Files\Blackmagic Design\Fusion 18\fusioncontrols.dll
+> C:\Program Files\Blackmagic Design\Fusion 19\fusioncontrols.dll
 >
 ___
 
@@ -381,7 +389,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jul 19 2023
+> Built: Aug 21 2024
 >
 ___
 

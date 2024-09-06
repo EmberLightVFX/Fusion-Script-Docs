@@ -2041,10 +2041,10 @@ ___
 >> `Type: Image.WindowType`
 >>
 >> Possible WindowType values
->> - Hamming
->> - Hanning
 >> - Kaiser
+>> - Hamming
 >> - Blackman
+>> - Hanning
 >>
 >### RSZ_XEdgeMode
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -2205,7 +2205,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jul 19 2023
+> Built: Aug 21 2024
 >
 ___
 

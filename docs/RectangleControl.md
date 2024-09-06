@@ -29,7 +29,15 @@ ___
 >>
 >> [RCID_Axis](#RCID_Axis)
 >>
+>> [RCID_AxisX](#RCID_AxisX)
+>>
+>> [RCID_AxisY](#RCID_AxisY)
+>>
 >> [RCID_Center](#RCID_Center)
+>>
+>> [RCID_CenterX](#RCID_CenterX)
+>>
+>> [RCID_CenterY](#RCID_CenterY)
 >>
 >> [RCID_FlipX](#RCID_FlipX)
 >>
@@ -43,7 +51,15 @@ ___
 >>
 >> [RCP_Axis](#RCP_Axis)
 >>
+>> [RCP_AxisX](#RCP_AxisX)
+>>
+>> [RCP_AxisY](#RCP_AxisY)
+>>
 >> [RCP_Center](#RCP_Center)
+>>
+>> [RCP_CenterX](#RCP_CenterX)
+>>
+>> [RCP_CenterY](#RCP_CenterY)
 >>
 >> [RCP_FlipX](#RCP_FlipX)
 >>
@@ -114,7 +130,15 @@ ___
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### RCID_Axis
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RCID_AxisX
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RCID_AxisY
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### RCID_Center
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RCID_CenterX
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RCID_CenterY
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### RCID_FlipX
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -128,7 +152,15 @@ ___
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### RCP_Axis
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RCP_AxisX
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RCP_AxisY
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### RCP_Center
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RCP_CenterX
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### RCP_CenterY
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### RCP_FlipX
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -235,7 +267,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> C:\Program Files\Blackmagic Design\Fusion 18\fusioncontrols.dll
+> C:\Program Files\Blackmagic Design\Fusion 19\fusioncontrols.dll
 >
 ___
 
@@ -259,7 +291,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jul 19 2023
+> Built: Aug 21 2024
 >
 ___
 

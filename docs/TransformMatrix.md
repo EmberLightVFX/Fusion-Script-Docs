@@ -32,6 +32,10 @@ ___
 ### Discovered Properties  
 Discovered properties might be available in many contexts, but most typically in Fuse scripts  
 > [!NOTE|labelVisibility:hidden|iconVisibility:hidden]
+> [DataWindow](#DataWindow)
+>
+> [ImageWindow](#ImageWindow)
+>
 > [OriginalIXScale](#OriginalIXScale)
 >
 > [OriginalIYScale](#OriginalIYScale)
@@ -328,6 +332,22 @@ ___
 
 # Discovered Properties: <!-- {docsify-ignore} -->
 
+### DataWindow
+> [!NOTE|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: ImgRectI`
+>
+> *<span class="read_only">Read Only</span>*
+>
+___
+
+### ImageWindow
+> [!NOTE|labelVisibility:hidden|iconVisibility:hidden]
+> `Type: ImgRectI`
+>
+> *<span class="read_only">Read Only</span>*
+>
+___
+
 ### OriginalIXScale
 > [!NOTE|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: float64`
@@ -495,10 +515,10 @@ ___
 >> `Type: TransformMatrix.WindowType`
 >>
 >> Possible WindowType values
->> - Hamming
->> - Hanning
 >> - Kaiser
+>> - Hamming
 >> - Blackman
+>> - Hanning
 >>
 >### MTX_Flatten
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -669,7 +689,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jul 19 2023
+> Built: Aug 21 2024
 >
 ___
 

@@ -66,6 +66,8 @@ Discovered properties might be available in many contexts, but most typically in
 >
 > [Refresh](#Refresh)()
 >
+> [ResetEnabledRegion](#ResetEnabledRegion)()
+>
 > [SaveSettings](#SaveSettings)()
 >
 > [SetCurrentSettings](#SetCurrentSettings)()
@@ -527,6 +529,16 @@ Returns: handle to the new (refreshed) tool
 >
 ___
 
+### ResetEnabledRegion()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Sets the tool's enabled region trimming
+>
+> ```php
+ Operator:ResetEnabledRegion()
+> ```
+>
+___
+
 ### SaveSettings()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > Save the tool's current settings to a file or table
@@ -891,7 +903,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jul 19 2023
+> Built: Aug 21 2024
 >
 ___
 

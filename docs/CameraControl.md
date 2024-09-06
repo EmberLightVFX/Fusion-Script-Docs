@@ -237,7 +237,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> C:\Program Files\Blackmagic Design\Fusion 18\fusioncontrols.dll
+> C:\Program Files\Blackmagic Design\Fusion 19\fusioncontrols.dll
 >
 ___
 
@@ -261,7 +261,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jul 19 2023
+> Built: Aug 21 2024
 >
 ___
 

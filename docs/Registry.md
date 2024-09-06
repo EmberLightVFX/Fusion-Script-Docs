@@ -45,6 +45,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > Create
 >
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [REGB_AllowCachedExtent](#REGB_AllowCachedExtent)
+>>
 >> [REGB_Temporal](#REGB_Temporal)
 >>
 >> [REGB_Utility_Toggle](#REGB_Utility_Toggle)
@@ -153,6 +155,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >>
 >> [REG_NoLayerCtrls](#REG_NoLayerCtrls)
 >>
+>> [REG_NoLinkCtrls](#REG_NoLinkCtrls)
+>>
 >> [REG_NoMotionBlurCtrls](#REG_NoMotionBlurCtrls)
 >>
 >> [REG_NoObjMatCtrls](#REG_NoObjMatCtrls)
@@ -164,6 +168,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >> [REG_OpNoMask](#REG_OpNoMask)
 >>
 >> [REG_OperatorControl](#REG_OperatorControl)
+>>
+>> [REG_Operator_ForceConnectPopUp](#REG_Operator_ForceConnectPopUp)
 >>
 >> [REG_Param_CreateDefault](#REG_Param_CreateDefault)
 >>
@@ -395,6 +401,10 @@ ___
 # Tag Map: <!-- {docsify-ignore} -->
 
 >## Create 
+>### REGB_AllowCachedExtent
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
 >### REGB_Temporal
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >> `Type: boolean`
@@ -545,6 +555,10 @@ ___
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >> `Type: boolean`
 >>
+>### REG_NoLinkCtrls
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
 >### REG_NoMotionBlurCtrls
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >> `Type: boolean`
@@ -566,6 +580,10 @@ ___
 >> `Type: boolean`
 >>
 >### REG_OperatorControl
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### REG_Operator_ForceConnectPopUp
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >> `Type: boolean`
 >>
@@ -782,7 +800,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jul 19 2023
+> Built: Aug 21 2024
 >
 ___
 

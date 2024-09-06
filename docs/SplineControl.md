@@ -114,16 +114,16 @@ ___
 >> - HLS_L
 >> - HLS_S
 >> - HSV_S
->> - YUV_U
 >> - YUV_V
 >> - YIQ_I
 >> - YIQ_Q
 >> - RGB_G
 >> - RGB_R
 >> - YIQ_Y
->> - CMY_C
 >> - RGB_B
+>> - YUV_U
 >> - HSV_V
+>> - CMY_C
 >>
 >### SPC_HorizontalGridLines
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -143,16 +143,16 @@ ___
 >> - HLS_L
 >> - HLS_S
 >> - HSV_S
->> - YUV_U
 >> - YUV_V
 >> - YIQ_I
 >> - YIQ_Q
 >> - RGB_G
 >> - RGB_R
 >> - YIQ_Y
->> - CMY_C
 >> - RGB_B
+>> - YUV_U
 >> - HSV_V
+>> - CMY_C
 >>
 >### SPC_Margin
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -172,16 +172,16 @@ ___
 >> - HLS_L
 >> - HLS_S
 >> - HSV_S
->> - YUV_U
 >> - YUV_V
 >> - YIQ_I
 >> - YIQ_Q
 >> - RGB_G
 >> - RGB_R
 >> - YIQ_Y
->> - CMY_C
 >> - RGB_B
+>> - YUV_U
 >> - HSV_V
+>> - CMY_C
 >>
 >### SPC_Show
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -272,7 +272,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> C:\Program Files\Blackmagic Design\Fusion 18\fusioncontrols.dll
+> C:\Program Files\Blackmagic Design\Fusion 19\fusioncontrols.dll
 >
 ___
 
@@ -296,7 +296,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jul 19 2023
+> Built: Aug 21 2024
 >
 ___
 

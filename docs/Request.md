@@ -43,9 +43,13 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [GetInputFlags](#GetInputFlags)()
 >
+> [GetInputLayer](#GetInputLayer)()
+>
 > [GetInputRoI](#GetInputRoI)()
 >
 > [GetInputTime](#GetInputTime)()
+>
+> [GetLayer](#GetLayer)()
 >
 > [GetOp](#GetOp)()
 >
@@ -122,6 +126,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [SetInputData](#SetInputData)()
 >
 > [SetInputFlags](#SetInputFlags)()
+>
+> [SetInputLayer](#SetInputLayer)()
 >
 > [SetInputTime](#SetInputTime)()
 >
@@ -342,6 +348,14 @@ uint32 Request:GetInputFlags(Input inp, int32 slot)
 >
 ___
 
+### GetInputLayer()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+string Request:GetInputLayer(Input inp, int32 slot)
+> ```
+>
+___
+
 ### GetInputRoI()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
@@ -354,6 +368,14 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
 TimeStamp Request:GetInputTime(Input inp, int32 slot)
+> ```
+>
+___
+
+### GetLayer()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+string Request:GetLayer()
 > ```
 >
 ___
@@ -662,6 +684,14 @@ boolean Request:SetInputFlags(Input inp, uint32 flags, int32 slot)
 >
 ___
 
+### SetInputLayer()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+boolean Request:SetInputLayer(Input inp, string layername, int32 slot)
+> ```
+>
+___
+
 ### SetInputTime()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
@@ -854,7 +884,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jul 19 2023
+> Built: Aug 21 2024
 >
 ___
 

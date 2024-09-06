@@ -29,8 +29,6 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [REGS_Name](#REGS_Name)
 >
-> [REGS_UIName](#REGS_UIName)
->
 > [REGS_VersionString](#REGS_VersionString)
 >
 ___
@@ -138,19 +136,11 @@ ___
 >
 ___
 
-### REGS_UIName
-> [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
-> `Type: string`
->
-> MtlGraph3D
->
-___
-
 ### REGS_VersionString
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jul 19 2023
+> Built: Aug 21 2024
 >
 ___
 

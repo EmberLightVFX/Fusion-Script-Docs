@@ -257,7 +257,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> C:\Program Files\Blackmagic Design\Fusion 18\Plugins\Blackmagic\USD\USD.plugin
+> C:\Program Files\Blackmagic Design\Fusion 19\Plugins\USD\USD.plugin
 >
 ___
 
@@ -289,7 +289,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jul 19 2023
+> Built: Aug 21 2024
 >
 ___
 

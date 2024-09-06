@@ -146,7 +146,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> C:\Program Files\Blackmagic Design\Fusion 18\Plugins\Blackmagic\bins.plugin
+> C:\Program Files\Blackmagic Design\Fusion 19\Plugins\bins.plugin
 >
 ___
 
@@ -170,7 +170,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jul 19 2023
+> Built: Aug 21 2024
 >
 ___
 

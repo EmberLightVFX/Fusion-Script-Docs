@@ -10,6 +10,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > [AddColor](#AddColor)()
 >
+> [AddRGBA](#AddRGBA)()
+>
 > [Clear](#Clear)()
 >
 > [ClearTables](#ClearTables)()
@@ -70,6 +72,14 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
  Gradient:AddColor(float64 pos, FltPixel pix)
+> ```
+>
+___
+
+### AddRGBA()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+ Gradient:AddRGBA(float64 pos, float32 r, float32 g, float32 b, float32 a)
 > ```
 >
 ___
@@ -225,7 +235,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Jul 19 2023
+> Built: Aug 21 2024
 >
 ___
 
