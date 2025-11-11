@@ -129,6 +129,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [SetInputLayer](#SetInputLayer)()
 >
+> [SetInputSelectedLayer](#SetInputSelectedLayer)()
+>
 > [SetInputTime](#SetInputTime)()
 >
 > [SetOp](#SetOp)()
@@ -159,13 +161,13 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >>
 >> [OPRAO_NormalisedRoI](#OPRAO_NormalisedRoI)
 >>
->> [OPRAO_RootImage](#OPRAO_RootImage)
->>
 >> [OPRA_SkipProcess](#OPRA_SkipProcess)
 >>
 > ReqAttrs
 >
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [RQAID_Layer](#RQAID_Layer)
+>>
 >> [RQA_BaseTime](#RQA_BaseTime)
 >>
 >> [RQA_DestImg](#RQA_DestImg)
@@ -692,6 +694,14 @@ boolean Request:SetInputLayer(Input inp, string layername, int32 slot)
 >
 ___
 
+### SetInputSelectedLayer()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+boolean Request:SetInputSelectedLayer(Input inp, string layername, int32 slot, string autolayer)
+> ```
+>
+___
+
 ### SetInputTime()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
@@ -782,8 +792,6 @@ ___
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### OPRAO_NormalisedRoI
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
->### OPRAO_RootImage
->> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### OPRA_SkipProcess
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >> `Type: boolean`
@@ -791,6 +799,8 @@ ___
 ___
 
 >## ReqAttrs 
+>### RQAID_Layer
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### RQA_BaseTime
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### RQA_DestImg
@@ -884,7 +894,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Aug 21 2024
+> Built: Nov  3 2025
 >
 ___
 

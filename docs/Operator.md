@@ -83,6 +83,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > [AddControlPage](#AddControlPage)()
 >
+> [AddLayerInput](#AddLayerInput)()
+>
 > [AddOutput](#AddOutput)()
 >
 > [AddSeparator](#AddSeparator)()
@@ -103,6 +105,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [FindSubInputs](#FindSubInputs)()
 >
+> [GetBaseLayerName](#GetBaseLayerName)()
+>
 > [GetNextKeyTime](#GetNextKeyTime)()
 >
 > [GetPrevKeyTime](#GetPrevKeyTime)()
@@ -112,6 +116,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [GetSourceTool](#GetSourceTool)()
 >
 > [IsGPUEnabled](#IsGPUEnabled)()
+>
+> [ProcessLayer](#ProcessLayer)()
 >
 > [RemoveControlPage](#RemoveControlPage)()
 >
@@ -126,6 +132,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 > [_AddInput](#_AddInput)()
 >
 > [_CloneInput](#_CloneInput)()
+>
+> [_SetProcessLayerDefault](#_SetProcessLayerDefault)()
 >
 ### Tag Map
 > ControlPage
@@ -620,6 +628,14 @@ int32 Operator:AddControlPage(string name, TagList tags)
 >
 ___
 
+### AddLayerInput()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+Input Operator:AddLayerInput(string name, string id, Input inp, TagList tags)
+> ```
+>
+___
+
 ### AddOutput()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
@@ -700,6 +716,14 @@ SubInputs Operator:FindSubInputs(string name)
 >
 ___
 
+### GetBaseLayerName()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+string Operator:GetBaseLayerName(Request req)
+> ```
+>
+___
+
 ### GetNextKeyTime()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
@@ -736,6 +760,14 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
 boolean Operator:IsGPUEnabled(Request req)
+> ```
+>
+___
+
+### ProcessLayer()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+boolean Operator:ProcessLayer(Request req, string layer)
 > ```
 >
 ___
@@ -792,6 +824,14 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
 Input Operator:_CloneInput(Input from, string id, TagList tags)
+> ```
+>
+___
+
+### _SetProcessLayerDefault()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+ Operator:_SetProcessLayerDefault(string mode, TagList tags)
 > ```
 >
 ___
@@ -903,7 +943,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Aug 21 2024
+> Built: Nov  3 2025
 >
 ___
 

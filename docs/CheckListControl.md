@@ -5,11 +5,17 @@ ___
 > Create
 >
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> [CLC_ColumnFlags](#CLC_ColumnFlags)
+>>
 >> [CLC_DisplayFlags](#CLC_DisplayFlags)
+>>
+>> [CLC_EnableEditing](#CLC_EnableEditing)
 >>
 >> [CLC_EnableMultiselect](#CLC_EnableMultiselect)
 >>
 >> [CLC_EnableReordering](#CLC_EnableReordering)
+>>
+>> [CLC_EnableSelection](#CLC_EnableSelection)
 >>
 >> [CLC_Rows](#CLC_Rows)
 >>
@@ -50,11 +56,17 @@ ___
 
 >## Create 
 > : [InputControl.Create](InputControl.md#Create)
+>### CLC_ColumnFlags
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### CLC_DisplayFlags
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CLC_EnableEditing
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### CLC_EnableMultiselect
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### CLC_EnableReordering
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### CLC_EnableSelection
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### CLC_Rows
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -137,7 +149,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> C:\Program Files\Blackmagic Design\Fusion 19\fusioncontrols.dll
+> C:\Program Files\Blackmagic Design\Fusion 20\fusioncontrols.dll
 >
 ___
 
@@ -161,7 +173,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Aug 21 2024
+> Built: Nov  3 2025
 >
 ___
 

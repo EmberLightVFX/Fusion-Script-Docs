@@ -16,9 +16,20 @@ Discovered properties might be available in many contexts, but most typically in
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > [GetData](#GetData)()
 >
+> [GetDefaultLayer](#GetDefaultLayer)()
+>
+> [GetLayerList](#GetLayerList)()
+>
 > [GetTool](#GetTool)()
 >
+> [HasLayer](#HasLayer)()
+>
 > [SetData](#SetData)()
+>
+### Discovered Methods  
+Discovered methods might be available in many contexts, but most typically in Fuse scripts  
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> [IsConnected](#IsConnected)()
 >
 ### Tag Map
 > Create
@@ -122,12 +133,42 @@ ___
 > *Se also: [SetData()](#SetData)*
 ___
 
+### GetDefaultLayer()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Obtains the default layer name
+>
+> ```php
+string Link:GetDefaultLayer()
+> ```
+>
+___
+
+### GetLayerList()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Returns available layers
+>
+> ```php
+table Link:GetLayerList()
+> ```
+>
+___
+
 ### GetTool()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > Returns the Tool object that owns this Link
 >
 > ```php
 Tool Link:GetTool()
+> ```
+>
+___
+
+### HasLayer()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Checks if a layer is available
+>
+> ```php
+boolean Link:HasLayer(string layername)
 > ```
 >
 ___
@@ -141,6 +182,17 @@ ___
 > ```
 >
 > *Se also: [GetData()](#GetData)*
+___
+
+
+# Discovered Methods: <!-- {docsify-ignore} -->
+
+### IsConnected()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+boolean Link:IsConnected()
+> ```
+>
 ___
 
 
@@ -266,7 +318,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Aug 21 2024
+> Built: Nov  3 2025
 >
 ___
 

@@ -19,7 +19,11 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [_Get_int32](#_Get_int32)()
 >
+> [_Get_int64](#_Get_int64)()
+>
 > [_Get_uint32](#_Get_uint32)()
+>
+> [_Get_uint64](#_Get_uint64)()
 >
 > [_Set_ID](#_Set_ID)()
 >
@@ -37,7 +41,11 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [_Set_int32](#_Set_int32)()
 >
+> [_Set_int64](#_Set_int64)()
+>
 > [_Set_uint32](#_Set_uint32)()
+>
+> [_Set_uint64](#_Set_uint64)()
 >
 ___
 
@@ -109,10 +117,26 @@ int32 TagList:_Get_int32(Tag tag, int32 def)
 >
 ___
 
+### _Get_int64()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+int64 TagList:_Get_int64(Tag tag, int64 def)
+> ```
+>
+___
+
 ### _Get_uint32()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
 uint32 TagList:_Get_uint32(Tag tag, uint32 def)
+> ```
+>
+___
+
+### _Get_uint64()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+uint64 TagList:_Get_uint64(Tag tag, uint64 def)
 > ```
 >
 ___
@@ -181,10 +205,26 @@ ___
 >
 ___
 
+### _Set_int64()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+ TagList:_Set_int64(Tag tag, int64 val, boolean addnew)
+> ```
+>
+___
+
 ### _Set_uint32()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
  TagList:_Set_uint32(Tag tag, uint32 val, boolean addnew)
+> ```
+>
+___
+
+### _Set_uint64()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+ TagList:_Set_uint64(Tag tag, uint64 val, boolean addnew)
 > ```
 >
 ___

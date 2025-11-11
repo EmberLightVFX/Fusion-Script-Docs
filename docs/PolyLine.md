@@ -9,6 +9,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >
 > [GetPoint](#GetPoint)()
 >
+> [GetPointDisplacement](#GetPointDisplacement)()
+>
 > [GetPointOnPath](#GetPointOnPath)()
 >
 > [IsClosed](#IsClosed)()
@@ -37,6 +39,14 @@ ___
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > ```php
 Point PolyLine:GetPoint(int32 index)
+> ```
+>
+___
+
+### GetPointDisplacement()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> ```php
+float64 PolyLine:GetPointDisplacement(int32 index)
 > ```
 >
 ___

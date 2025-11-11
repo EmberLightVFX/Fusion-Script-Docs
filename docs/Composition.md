@@ -53,6 +53,8 @@ ___
 >
 > [Execute](#Execute)()
 >
+> [ExecuteFile](#ExecuteFile)()
+>
 > [ExpandZone](#ExpandZone)()
 >
 > [Export](#Export)()
@@ -68,6 +70,8 @@ ___
 > [GetData](#GetData)()
 >
 > [GetFrameList](#GetFrameList)()
+>
+> [GetMarkers](#GetMarkers)()
 >
 > [GetNextKeyTime](#GetNextKeyTime)()
 >
@@ -143,6 +147,8 @@ ___
 >
 > [SetData](#SetData)()
 >
+> [SetMarker](#SetMarker)()
+>
 > [SetPrefs](#SetPrefs)()
 >
 > [SetReadOnly](#SetReadOnly)()
@@ -152,6 +158,8 @@ ___
 > [StartUndo](#StartUndo)()
 >
 > [Stop](#Stop)()
+>
+> [Transcribe](#Transcribe)()
 >
 > [Undo](#Undo)()
 >
@@ -446,6 +454,22 @@ ___
 
 ### Execute()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Executes a script string
+>
+> ```php
+ Composition:Execute(string script text)
+> ```
+>
+___
+
+### ExecuteFile()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Executes a script file internally
+>
+> ```php
+ Composition:ExecuteFile(string filename, table args)
+> ```
+>
 ___
 
 ### ExpandZone()
@@ -527,6 +551,20 @@ ___
 
 ### GetFrameList()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+___
+
+### GetMarkers()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Returns a table of timeline markers.
+>
+> ```php
+list Composition:GetMarkers([time timestamp])
+> ```
+>
+> ```
+This returns a list of timeline markers, each with a table/dict of attributes.
+> ```
+>
 ___
 
 ### GetNextKeyTime()
@@ -803,7 +841,7 @@ ___
 
 ### RunScript()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
-> Run a script
+> Run a script file externally
 >
 > ```php
  Composition:RunScript(string filename)
@@ -872,6 +910,20 @@ ___
 > *Se also: [GetData()](#GetData)*
 ___
 
+### SetMarker()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Creates or changes a timeline marker.
+>
+> ```php
+ Composition:SetMarker(number timestamp, table marker data)
+> ```
+>
+> ```
+This will add or overwrite a timeline marker. Pass a table/dict of attributes, or nil to delete the marker.
+> ```
+>
+___
+
 ### SetPrefs()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > Set preferences from a table of attributes
@@ -912,6 +964,20 @@ ___
 >
 > ```php
  Composition:Stop()
+> ```
+>
+___
+
+### Transcribe()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Fetches transcription data for given media.
+>
+> ```php
+table Composition:Transcribe(string media ID, [boolean detect speaker])
+> ```
+>
+> ```
+Resolve: This takes a media ID string, performs transcription on the media, then returns a table of text and timing.
 > ```
 >
 ___
@@ -1057,7 +1123,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Aug 21 2024
+> Built: Nov  3 2025
 >
 ___
 

@@ -86,12 +86,13 @@ ___
 > Returns the Domain of Definition at the given time
 >
 > ```php
-table PlainOutput:GetDoD([number time], [number flags], [number proxy])
+table PlainOutput:GetDoD([number time], [string layer], [number flags], [number proxy])
 > ```
 >
 > ```
 Args:
-  time:     The frame to fetch the value for (default is the current time).
+  time:     The frame to fetch the DoD for (default is the current time).
+  layer:    The layer to fetch the DoD for (default is the default layer).
   reqflags: Quality flags (default is final quality).
   proxy:    Proxy level (default is no proxy).
 
@@ -107,12 +108,13 @@ ___
 > Returns the value at the given time
 >
 > ```php
-Parameter, table PlainOutput:GetValue([number time], [number flags], [number proxy])
+Parameter, table PlainOutput:GetValue([number time], [string layer], [number flags], [number proxy])
 > ```
 >
 > ```
 Args:
   time:     The frame to fetch the value for (default is the current time).
+  layer:    The layer to fetch the value for (default is the default layer).
   reqflags: Quality flags (default is final quality).
   proxy:    Proxy level (default is no proxy).
 
@@ -226,7 +228,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Aug 21 2024
+> Built: Nov  3 2025
 >
 ___
 

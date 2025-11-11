@@ -23,6 +23,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >> [INPID_AddModifier](#INPID_AddModifier)
 >>
+>> [INPID_AutoLayer](#INPID_AutoLayer)
+>>
 >> [INPID_DefaultID](#INPID_DefaultID)
 >>
 >> [INPID_InputControl](#INPID_InputControl)
@@ -43,7 +45,11 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >>
 >> [INPS_DefaultText](#INPS_DefaultText)
 >>
+>> [INPS_ExecuteOnChange](#INPS_ExecuteOnChange)
+>>
 >> [INPS_HelpText](#INPS_HelpText)
+>>
+>> [INPS_LayerInputName](#INPS_LayerInputName)
 >>
 >> [INPS_StatusText](#INPS_StatusText)
 >>
@@ -64,6 +70,8 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >> [INP_AcceptsMasks](#INP_AcceptsMasks)
 >>
 >> [INP_Active](#INP_Active)
+>>
+>> [INP_AddLayerControl](#INP_AddLayerControl)
 >>
 >> [INP_ConnectRequired](#INP_ConnectRequired)
 >>
@@ -119,15 +127,17 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >>
 >> [INP_Priority](#INP_Priority)
 >>
+>> [INP_RegionRequired](#INP_RegionRequired)
+>>
 >> [INP_Required](#INP_Required)
 >>
 >> [INP_SaveVisible](#INP_SaveVisible)
 >>
 >> [INP_SendRequest](#INP_SendRequest)
 >>
->> [INP_SubType](#INP_SubType)
+>> [INP_SplineType](#INP_SplineType)
 >>
->> [INP_SupportsMultiLayer](#INP_SupportsMultiLayer)
+>> [INP_SubType](#INP_SubType)
 >>
 >> [INP_UserData](#INP_UserData)
 >>
@@ -210,6 +220,8 @@ ___
 > : [Link.Create](Link.md#Create)
 >### INPID_AddModifier
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### INPID_AutoLayer
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### INPID_DefaultID
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### INPID_InputControl
@@ -230,7 +242,11 @@ ___
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### INPS_DefaultText
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### INPS_ExecuteOnChange
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### INPS_HelpText
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### INPS_LayerInputName
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### INPS_StatusText
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -261,6 +277,10 @@ ___
 >> `Type: boolean`
 >>
 >### INP_Active
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### INP_AddLayerControl
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >> `Type: boolean`
 >>
@@ -350,6 +370,10 @@ ___
 >>
 >### INP_Priority
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>### INP_RegionRequired
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
 >### INP_Required
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >> `Type: boolean`
@@ -361,6 +385,17 @@ ___
 >### INP_SendRequest
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >> `Type: boolean`
+>>
+>### INP_SplineType
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: Input.SplineType`
+>>
+>> Possible SplineType values
+>> - Default
+>> - Linear
+>> - Smooth
+>> - StepIn
+>> - StepOut
 >>
 >### INP_SubType
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -377,10 +412,6 @@ ___
 >> - ColorG
 >> - ColorB
 >> - ColorA
->>
->### INP_SupportsMultiLayer
->> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
->> `Type: boolean`
 >>
 >### INP_UserData
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
@@ -469,7 +500,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Aug 21 2024
+> Built: Nov  3 2025
 >
 ___
 

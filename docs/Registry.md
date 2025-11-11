@@ -139,6 +139,10 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >>
 >> [REG_IconColor](#REG_IconColor)
 >>
+>> [REG_Layer_NoBaseNameCtrls](#REG_Layer_NoBaseNameCtrls)
+>>
+>> [REG_Layer_NoProcessCtrls](#REG_Layer_NoProcessCtrls)
+>>
 >> [REG_LightShortID](#REG_LightShortID)
 >>
 >> [REG_MainView](#REG_MainView)
@@ -152,8 +156,6 @@ Discovered methods might be available in many contexts, but most typically in Fu
 >> [REG_NoChannelCtrls](#REG_NoChannelCtrls)
 >>
 >> [REG_NoCommonCtrls](#REG_NoCommonCtrls)
->>
->> [REG_NoLayerCtrls](#REG_NoLayerCtrls)
 >>
 >> [REG_NoLinkCtrls](#REG_NoLinkCtrls)
 >>
@@ -527,6 +529,14 @@ ___
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >> `Type: number (unsigned integer)`
 >>
+>### REG_Layer_NoBaseNameCtrls
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
+>### REG_Layer_NoProcessCtrls
+>> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
+>> `Type: boolean`
+>>
 >### REG_LightShortID
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >### REG_MainView
@@ -548,10 +558,6 @@ ___
 >> `Type: boolean`
 >>
 >### REG_NoCommonCtrls
->> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
->> `Type: boolean`
->>
->### REG_NoLayerCtrls
 >> [!ATTENTION|labelVisibility:hidden|iconVisibility:hidden]
 >> `Type: boolean`
 >>
@@ -800,7 +806,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Aug 21 2024
+> Built: Nov  3 2025
 >
 ___
 

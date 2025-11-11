@@ -11,6 +11,14 @@ ___
 >
 > [ExportTo3DLUT](#ExportTo3DLUT)()
 >
+> [GetLayer](#GetLayer)()
+>
+> [GetLayerList](#GetLayerList)()
+>
+> [GetLayerName](#GetLayerName)()
+>
+> [GetViewedLayer](#GetViewedLayer)()
+>
 > [IsDoDShown](#IsDoDShown)()
 >
 > [IsEnableRoI](#IsEnableRoI)()
@@ -27,6 +35,8 @@ ___
 >
 > [SaveLUTFile](#SaveLUTFile)()
 >
+> [SetLayer](#SetLayer)()
+>
 > [SetRoI](#SetRoI)()
 >
 > [ShowDoD](#ShowDoD)()
@@ -36,6 +46,8 @@ ___
 > [ShowLUTEditor](#ShowLUTEditor)()
 >
 > [ShowRoI](#ShowRoI)()
+>
+> [ToggleLayer](#ToggleLayer)()
 >
 ### Registry Attributes
 > [REGB_ControlView](#REGB_ControlView)
@@ -114,6 +126,40 @@ Returns: boolean success, and the saved LUT's filename.
 >
 ___
 
+### GetLayer()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Get the layer set to view
+>
+> ```php
+ GLImageViewer:GetLayer()
+> ```
+>
+___
+
+### GetLayerList()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Get the list of available layers to view
+>
+> ```php
+ GLImageViewer:GetLayerList()
+> ```
+>
+___
+
+### GetLayerName()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+___
+
+### GetViewedLayer()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Get the actually viewed layer
+>
+> ```php
+ GLImageViewer:GetViewedLayer()
+> ```
+>
+___
+
 ### IsDoDShown()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 ___
@@ -176,6 +222,17 @@ boolean GLImageViewer:SaveLUTFile([string pathname])
 >
 ___
 
+### SetLayer()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Set the layer to view
+Layer of "" indicates the default layer
+>
+> ```php
+ GLImageViewer:SetLayer(string layer)
+> ```
+>
+___
+
 ### SetRoI()
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > Sets the current View RoI region
@@ -224,6 +281,16 @@ ___
 >
 > ```php
  GLImageViewer:ShowRoI([boolean enable])
+> ```
+>
+___
+
+### ToggleLayer()
+> [!TIP|labelVisibility:hidden|iconVisibility:hidden]
+> Set the previously viewed layer as the layer to view
+>
+> ```php
+ GLImageViewer:ToggleLayer()
 > ```
 >
 ___
@@ -323,7 +390,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Aug 21 2024
+> Built: Nov  3 2025
 >
 ___
 

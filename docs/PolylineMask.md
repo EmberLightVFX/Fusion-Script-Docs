@@ -274,7 +274,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> C:\Program Files\Blackmagic Design\Fusion 19\fusionoperators.dll
+> C:\Program Files\Blackmagic Design\Fusion 20\fusionoperators.dll
 >
 ___
 
@@ -338,7 +338,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Aug 21 2024
+> Built: Nov  3 2025
 >
 ___
 

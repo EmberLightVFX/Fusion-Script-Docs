@@ -9,6 +9,8 @@ ___
 >
 > [Name](#Name)
 >
+> [Value](#Value)
+>
 ### Methods  
 > [!TIP|labelVisibility:hidden|iconVisibility:hidden]
 > [GetData](#GetData)()
@@ -70,6 +72,16 @@ ___
 > Friendly name of this Parameter
 >
 > `Type: string`
+>
+> *<span class="read_only">Read Only</span>*
+>
+___
+
+### Value
+> [!NOTE|labelVisibility:hidden|iconVisibility:hidden]
+> Value of this Parameter
+>
+> `Type: type`
 >
 > *<span class="read_only">Read Only</span>*
 >
@@ -198,7 +210,7 @@ ___
 > [!WARNING|labelVisibility:hidden|iconVisibility:hidden]
 > `Type: string`
 >
-> Built: Aug 21 2024
+> Built: Nov  3 2025
 >
 ___
 
